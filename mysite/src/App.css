@@ -2,29 +2,18 @@
   text-align: center;
   background-color: #1a2b38;
   color: white;
-  min-height: 66vh;
-  max-height: 66vh;
   display: flex;
+  flex-direction: column;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.home-logo-div{
-  margin: auto;
-  min-width: 22vh;
-  min-height: 22vh;
-  max-height: 22vh;
-  max-width: 22vh;
-  fill: white;
+.main-page-column{
+  text-align: center;
+  display: flex;
+  background-color: #1a2b38;
+  min-height: 8vh;
+  display: flex;
+  font-size: 5vw;
+  color: white;
 }
 
 .App-header {
@@ -49,13 +38,8 @@
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-
 .footer{
-  background-color: #1a2b38;
-  min-height: 8vh;
-  display: flex;
-  font-size: 5vw;
-  color: white;
+  margin: auto;
 }
 
 .content{
@@ -67,13 +51,11 @@
   flex-direction: column;
   align-content: flex-start;
   justify-content: flex-start;
-  margin-bottom: auto;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
 }
 
 .photo-div{
-  margin-top: 15vh;
+  margin: auto;
 }
 
 .portrait{
@@ -81,8 +63,7 @@
   height: 500px;
   border-radius: 250px;
   overflow: hidden;
-  border-width: 15px;
-  border-color: red;
+  border: 12px #2e3f4d solid
 
 }
 .name{
@@ -91,18 +72,4 @@
 
 .profession{
   font-size: 4vw;
-}
-
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

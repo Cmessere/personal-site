@@ -3,23 +3,24 @@
 <svg version="1.1" id="Livello_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1024 1024" style="enable-background:new 0 0 1024 1024;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:none;stroke:#000000;stroke-width:11;stroke-miterlimit:10;}
-	.st1{fill:none;stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st2{stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st3{fill:none;stroke:#000000;stroke-width:11;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st4{fill:none;stroke:#000000;stroke-width:14;stroke-miterlimit:10;}
+	.st0{fill:#FFFFFF;stroke:#FFFFFF;stroke-width:24;stroke-miterlimit:10;}
+	.st1{fill:#FFFFFF;stroke:#FFFFFF;stroke-width:24;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#FFFFFF;stroke-width:26;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#FFFFFF;stroke-width:26;stroke-miterlimit:10;}
 </style>
-<circle id="XMLID_2_" class="st0" cx="408.5" cy="365.1" r="36"/>
+<circle id="XMLID_2_" class="st0" cx="231" cy="507.3" r="58"/>
 <g id="XMLID_7_">
-	<polygon id="XMLID_3_" class="st1" points="622.7,405.8 638.5,411.2 625.8,422.2 616.5,423.7 610,416.8 606.9,400.3 	"/>
-	<polygon id="XMLID_4_" class="st1" points="642.7,445.9 637.2,461.7 626.3,449.1 624.8,439.8 631.7,433.3 648.1,430.1 	"/>
-	<polygon id="XMLID_6_" class="st1" points="602.2,465.2 586.4,459.8 599,448.8 608.3,447.3 614.8,454.3 618,470.7 	"/>
-	<polygon id="XMLID_5_" class="st1" points="582.2,425.1 587.6,409.3 598.6,421.9 600.1,431.2 593.1,437.7 576.7,440.9 	"/>
+	<polygon id="XMLID_3_" class="st1" points="576.2,572.9 601.6,581.7 581.3,599.3 566.2,601.8 555.9,590.5 550.7,564.1 	"/>
+	<polygon id="XMLID_4_" class="st1" points="608.4,637.6 599.6,663 582,642.7 579.6,627.6 590.8,617.2 617.2,612.1 	"/>
+	<polygon id="XMLID_6_" class="st1" points="543.2,668.6 517.7,659.8 538,642.2 553.1,639.8 563.5,651 568.6,677.4 	"/>
+	<polygon id="XMLID_5_" class="st1" points="510.9,603.9 519.7,578.5 537.4,598.8 539.8,613.9 528.6,624.3 502.1,629.4 	"/>
 </g>
-<rect id="XMLID_8_" x="505.4" y="465.3" transform="matrix(0.9453 0.3262 -0.3262 0.9453 182.1072 -143.9927)" class="st2" width="30" height="11.3"/>
-<rect id="XMLID_10_" x="441.4" y="443.2" transform="matrix(0.9453 0.3262 -0.3262 0.9453 171.411 -124.3407)" class="st2" width="30" height="11.3"/>
-<path id="XMLID_9_" class="st3" d="M597.7,132.5c34.5,42.4,37.8,56.6,33.8,61.4c-7.8,9.4-42.4-18.5-71.7-3.6
-	c-14.6,7.4-27.2,25-23.8,38.3c5.4,21.4,47.9,14.8,57.5,38.9c6.9,17.3-6.2,43.2-26.5,55.4c-27.1,16.2-55.9,1.1-57.2,0.3"/>
-<path id="XMLID_11_" class="st4" d="M610.6,539.5l-263.3-90.9c-25-8.6-38.3-36.1-29.7-61l24.5-70.9c8.6-25,36.1-38.3,61-29.7
-	l263.3,90.9c25,8.6,38.3,36.1,29.7,61l-24.5,70.9C663,534.8,635.5,548.1,610.6,539.5z"/>
+<rect id="XMLID_8_" x="387.2" y="668.8" transform="matrix(0.9453 0.3262 -0.3262 0.9453 243.654 -97.1161)" class="st1" width="48.3" height="18.3"/>
+<rect id="XMLID_10_" x="284.2" y="633.2" transform="matrix(0.9453 0.3262 -0.3262 0.9453 226.4186 -65.4497)" class="st1" width="48.3" height="18.3"/>
+<g id="XMLID_1_">
+	<path id="XMLID_9_" class="st2" d="M536,132.5c55.5,68.3,60.9,91.2,54.5,98.9c-12.6,15.1-68.4-29.8-115.6-5.8
+		c-23.4,11.9-43.8,40.3-38.4,61.8c8.8,34.4,77.2,23.9,92.6,62.6c11.1,27.9-10,69.7-42.7,89.2c-43.7,26.1-90,1.8-92.2,0.6"/>
+	<path id="XMLID_11_" class="st3" d="M584.4,797.9L104.7,632.4c-25-8.6-38.3-36.1-29.7-61l58.6-169.7c8.6-25,36.1-38.3,61-29.7
+		l479.7,165.5c25,8.6,38.3,36.1,29.7,61l-58.6,169.7C636.8,793.2,609.4,806.5,584.4,797.9z"/>
+</g>
 </svg>

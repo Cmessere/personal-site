@@ -1,8 +1,8 @@
 .App {
   text-align: center;
-  background-color: #470e1a;
+  background-color: #1a2b38;
   color: white;
-  min-height: 90vh;
+  min-height: 92vh;
   display: flex;
 }
 
@@ -18,7 +18,7 @@
 }
 
 .App-header {
-  background-color: #8c011f;
+  background-color: #2e3f4d;
   min-height: 8vh;
   display: flex;
   align-items: center;

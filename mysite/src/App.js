@@ -21,7 +21,6 @@ const Header = () => {
   return(
     <div className="App-header"> 
       <div className="header-content">ABOUT</div>
-      <div className="header-content">WORK</div>
       <div className="header-content">BLOG</div>
       <div className="header-content">CONTACT</div>
     </div>

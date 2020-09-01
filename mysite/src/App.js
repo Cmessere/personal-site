@@ -1,11 +1,19 @@
 import React from 'react';
+import CodeLogo from "./Images/code_logo.png";
+import GamepadLogo from "./Images/gamepad_logo.png";
+import PuzzleLog from "./Images/puzzle_logo.png";
+
+
 import './App.css';
 
 function App() {
   return (
+    <>
+    <Header></Header>
     <div className="App">
-        <Header></Header>
+        <image image={CodeLogo}></image>
     </div>
+    </>
   );
 }
 

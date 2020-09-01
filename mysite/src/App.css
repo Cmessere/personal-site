@@ -25,6 +25,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  font-weight: bolder;
   border-bottom: 1vh white solid;
 }
 

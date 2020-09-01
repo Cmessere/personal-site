@@ -4,7 +4,6 @@
   color: white;
   display: flex;
   flex-direction: column;
-  height: 100%;
 }
 
 html, body {
@@ -37,7 +36,6 @@ html, body {
 
 .header-content{
   display: flex;
-
   margin-left: 3vw;
   margin-right: 3vw;
   cursor: pointer;

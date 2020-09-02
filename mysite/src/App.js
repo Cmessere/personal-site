@@ -5,6 +5,7 @@ import './App.css';
 import './Animation.scss';
 import { Switch, Route } from 'react-router';
 import { Header } from './Header';
+import { Particles } from './Particles';
 
 function App() {
   return(
@@ -92,22 +93,6 @@ const Main = () => {
       </div>
     </div>
   );
-}
-
-const Particles = () => {
-  const lowerParticles = Array.apply(null, Array(66));
-  const upperParticles = Array.apply(null, Array(700));
-
-  return(
-    <div className="Particles">
-      {
-        upperParticles.map(() => {return <span className= "upper-particles"></span>})
-      }
-      {
-        lowerParticles.map(() => {return <span className= "lower-particles"></span>})
-      }
-    </div>
-  )
 }
 
 export default App;

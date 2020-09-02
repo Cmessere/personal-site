@@ -9,16 +9,23 @@
   height: 100vh;
 }
 
+.root{
+  max-width: 100vw;
+  max-height: 100vh;
+}
+
 .main-page{
   text-align: center;
   display: flex;
   flex-direction: column;
   z-index: 1;
   width: 100vw;
-  height: 100vh;
+  height: 100%;
+  overflow: hidden;
 }
 
 .background {
+  overflow: hidden;
 
   background: #12181d;
   z-index: -1;
@@ -47,7 +54,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: 2vw;
   color: white;
   font-weight: bolder;
   border-bottom: 0.5vh white solid;
@@ -85,13 +92,13 @@ body {
 }
 
 .portrait{
-  width: 25vw;
-  height: 25vw;
-  border-radius: 25vw;
+  width: 20vw;
+  height: 20vw;
+  border-radius: 20vw;
   overflow: hidden;
   padding: 0.5vh;
   margin-right: 3vw;
-  border: 1vh #ffffff solid
+  border: 12px #ffffff solid
 
 }
 .name{

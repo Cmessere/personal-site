@@ -6,6 +6,8 @@
   $animationDuration: 33s;
   $amount: 1000;
   .lower-particles {
+    overflow: hidden;
+
     z-index: 0;
     width: $pointSize;
     height: $pointSize;
@@ -14,7 +16,7 @@
     position: absolute;
     animation-timing-function:  linear;
     animation-duration: $animationDuration;
-    animation-name: move;
+    animation-name: goUp;
     animation-iteration-count: infinite;
     $colorRange: (
       #334e80,
@@ -24,17 +26,21 @@
     @for $i from 1 through $amount {
       &:nth-child(#{$i}) {
         color: nth($colorRange, random(length($colorRange)));
-        bottom: random(100) * 1%;
-        left: random(100) * 1%;
+        bottom: 5 + random(80) * 0.8% ;
+        left: random(98) * 1%;
         animation-duration: (random($animationDuration * 3s) / 10) * 1s + 60s;
-        animation-delay: random(($animationDuration + 3s) * 10) / 10 * -60s;
-        transform-origin: (random(200) - 10) * 1vw (random(200) - 10) * 1vh;
+        animation-delay: random(($animationDuration + 3s) * 10) / 1 * -60s;
+        transform-origin: (random(100) - 10) * 0.9vw ((random(50) - 25) * 0.9vh + 2vh);
         box-shadow: ($pointSize) 0  currentColor;
+        overflow: hidden;
+
       }
     }
   }
 
   .upper-particles {
+    overflow: hidden;
+
     z-index: 0;
     width: $pointSize;
     height: $pointSize;
@@ -53,12 +59,14 @@
     @for $i from 1 through $amount {
       &:nth-child(#{$i}) {
         color: nth($colorRange, random(length($colorRange)));
-        top: random(10) * 1%;
-        left: random(100) * 1%;
-        animation-duration: (random($animationDuration * 10) / 10) * 1s + 66s;
+        top: random(15) * 1%;
+        left: random(93) * 1%;
+        animation-duration: (random($animationDuration * 10) / 10) * 1s + 100s;
         animation-delay: random(($animationDuration + 10s) * 10) / 10 * -100s;
-        transform-origin: (random(3) - 0) * 1vw (random(3) - 0) * 1vh;
+        transform-origin: (random(3) - 0) * 0.8vw (random(3) - 0) * 0.9vh;
         box-shadow: ($pointSize) 0  currentColor;
+        overflow: hidden;
+
       }
     }
   }
@@ -66,7 +74,16 @@
   
   @keyframes move {
     100% {
-      transform: translate3d(0, 0, 1px) rotate(360deg);
+      transform: translate3d(0, 0, 0) rotate(720deg );
+    }
+  }
+  @keyframes goUp {
+    90% {
+      $degree: random(360);
+      transform: translate3d(1vh, 5vh, 0) rotate(0) ;
+    }
+    0%{
+      transform: translate3d(1vh, 85vh, 0) rotate(0);
     }
   }
 

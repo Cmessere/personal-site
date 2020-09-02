@@ -3,7 +3,8 @@ import photo from "./Images/prova.jpg";
 
 import './App.css';
 import './Animation.scss';
-import { Switch, Route, useHistory } from 'react-router';
+import { Switch, Route } from 'react-router';
+import { Header } from './Header';
 
 function App() {
   return(
@@ -37,6 +38,8 @@ const About = () =>{
     </div>
   )
 }
+
+
 const Blog = () =>{
   return(
     <div className="body">
@@ -50,6 +53,7 @@ const Blog = () =>{
     </div>
   )
 }
+
 const Contact = () =>{
   return(
     <div className="body">
@@ -102,24 +106,6 @@ const Particles = () => {
       {
         lowerParticles.map(() => {return <span className= "lower-particles"></span>})
       }
-    </div>
-  )
-}
-
-const Header = () => {
-
-  let history = useHistory();
-
-  function changePage(path){
-    history.push(`/${path}`)
-  }
-
-  return(
-    <div className="App-header"> 
-      <div className="header-content" onClick={() => changePage("")}>HOME</div>
-      <div className="header-content" onClick={() => changePage("about")}>ABOUT</div>
-      <div className="header-content" onClick={() => changePage("blog")}>BLOG</div>
-      <div className="header-content" onClick={() => changePage("contact")}>CONTACT</div>
     </div>
   )
 }

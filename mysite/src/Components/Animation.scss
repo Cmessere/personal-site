@@ -24,11 +24,11 @@
     @for $i from 1 through $amount {
       &:nth-child(#{$i}) {
         color: nth($colorRange, random(length($colorRange)));
-        bottom: random(44) * 1%;
+        bottom: random(100) * 1%;
         left: random(100) * 1%;
-        animation-duration: (random($animationDuration * 10) / 10) * 1s + 66s;
-        animation-delay: random(($animationDuration + 10s) * 10) / 10 * -100s;
-        transform-origin: (random(3) - 0) * 1vw (random(3) - 0) * 1vh;
+        animation-duration: (random($animationDuration * 3s) / 10) * 1s + 60s;
+        animation-delay: random(($animationDuration + 3s) * 10) / 10 * -60s;
+        transform-origin: (random(200) - 10) * 1vw (random(200) - 10) * 1vh;
         box-shadow: ($pointSize) 0  currentColor;
       }
     }

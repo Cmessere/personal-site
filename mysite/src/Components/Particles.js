@@ -1,6 +1,6 @@
 import React from 'react';
 export const Particles = () => {
-  const lowerParticles = Array.apply(null, Array(66));
+  const lowerParticles = Array.apply(null, Array(200));
   const upperParticles = Array.apply(null, Array(700));
 
   return (

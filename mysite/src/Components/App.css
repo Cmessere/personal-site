@@ -8,6 +8,16 @@
   width: 100vw;
   height: 100vh;
 }
+
+.main-page{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  width: 100vw;
+  height: 100vh;
+}
+
 .background {
 
   background: #12181d;
@@ -40,7 +50,7 @@ body {
   font-size: calc(10px + 2vmin);
   color: white;
   font-weight: bolder;
-  border-bottom: 1vh white solid;
+  border-bottom: 0.5vh white solid;
   z-index: 1;
   background: linear-gradient(to bottom, #12181d, #1e3547);
 }
@@ -54,7 +64,7 @@ body {
 }
 
 .footer{
-  margin: auto;
+  margin-top: -20vh;
   z-index: 1;
 }
 

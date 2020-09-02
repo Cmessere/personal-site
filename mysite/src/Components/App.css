@@ -5,14 +5,11 @@
   display: flex;
   flex-direction: column;
   z-index: 1;
-  width: 100vw;
-  height: 100vh;
+  width: 105vw;
+  height: 105vh;
 }
 
-.root{
-  max-width: 100vw;
-  max-height: 100vh;
-}
+
 
 .main-page{
   text-align: center;
@@ -101,6 +98,12 @@ body {
   border: 3px #d0e4f7 solid
 
 }
+
+.root{
+  max-width: 100vw;
+  max-height: 100vh;
+}
+
 .name{
   color:#d0e4f7;
   font-size: 8vw;

@@ -1,0 +1,51 @@
+.contact-icon{
+    color: #d0e4f7;
+    min-width: 20vh;
+    min-height: 20vh;
+    margin: auto;
+    margin-right: 3vw;
+}
+
+.contact-page{
+    margin-top: 4vh;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.link-paragraph{
+    margin: auto;
+    font-size: 5vw;
+}
+
+.custom-link{
+    display: flex;
+}
+
+a:link {
+    color: #d0e4f7;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: #d0e4f7;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: white;
+  }
+  
+  a:active {
+    color: lightblue;
+  }
+
+.contact-row{
+    margin: auto;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    min-width: 80vw;
+    max-width: 80vw;
+    display: flex;
+    justify-content: flex-start;
+}

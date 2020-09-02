@@ -75,9 +75,9 @@ body {
 }
 
 .portrait{
-  width: 16vw;
-  height: 16vw;
-  border-radius: 16vw;
+  width: 25vw;
+  height: 25vw;
+  border-radius: 25vw;
   overflow: hidden;
   padding: 0.5vh;
   margin-right: 3vw;

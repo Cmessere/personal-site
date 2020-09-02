@@ -3,8 +3,68 @@ import photo from "./Images/prova.jpg";
 
 import './App.css';
 import './Animation.scss';
+import { Switch, Route, useHistory } from 'react-router';
 
 function App() {
+  return(
+    <Switch>
+      <Route exact path="/">
+        <Main />
+      </Route>
+      <Route exact path="/about">
+        <About />
+      </Route>
+      <Route exact path="/blog">
+        <Blog />
+      </Route>
+      <Route exact path="/contact">
+        <Contact />
+      </Route>
+    </Switch>
+  )
+}
+
+const About = () =>{
+  return(
+    <div className="body">
+      <div className="background">
+        <div className="App">
+        <Header></Header>
+
+        <Particles/>
+        </div>
+      </div>
+    </div>
+  )
+}
+const Blog = () =>{
+  return(
+    <div className="body">
+      <div className="background">
+        <div className="App">
+        <Header></Header>
+
+        <Particles/>
+        </div>
+      </div>
+    </div>
+  )
+}
+const Contact = () =>{
+  return(
+    <div className="body">
+      <div className="background">
+        <div className="App">
+        <Header></Header>
+
+        <Particles/>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+const Main = () => {
   return (
     <div className="body">
       <div className="background">
@@ -47,11 +107,19 @@ const Particles = () => {
 }
 
 const Header = () => {
+
+  let history = useHistory();
+
+  function changePage(path){
+    history.push(`/${path}`)
+  }
+
   return(
     <div className="App-header"> 
-      <div className="header-content">ABOUT</div>
-      <div className="header-content">BLOG</div>
-      <div className="header-content">CONTACT</div>
+      <div className="header-content" onClick={() => changePage("")}>HOME</div>
+      <div className="header-content" onClick={() => changePage("about")}>ABOUT</div>
+      <div className="header-content" onClick={() => changePage("blog")}>BLOG</div>
+      <div className="header-content" onClick={() => changePage("contact")}>CONTACT</div>
     </div>
   )
 }

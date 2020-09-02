@@ -1,0 +1,73 @@
+
+  
+
+  
+  $pointSize: .4vh;
+  $animationDuration: 33s;
+  $amount: 1000;
+  .lower-particles {
+    z-index: 0;
+    width: $pointSize;
+    height: $pointSize;
+    border-radius: $pointSize*2;
+    backface-visibility: hidden;
+    position: absolute;
+    animation-timing-function:  linear;
+    animation-duration: $animationDuration;
+    animation-name: move;
+    animation-iteration-count: infinite;
+    $colorRange: (
+      #334e80,
+      #ffffff,
+      #d0e4f7,
+    );
+    @for $i from 1 through $amount {
+      &:nth-child(#{$i}) {
+        color: nth($colorRange, random(length($colorRange)));
+        bottom: random(44) * 1%;
+        left: random(100) * 1%;
+        animation-duration: (random($animationDuration * 10) / 10) * 1s + 66s;
+        animation-delay: random(($animationDuration + 10s) * 10) / 10 * -100s;
+        transform-origin: (random(3) - 0) * 1vw (random(3) - 0) * 1vh;
+        box-shadow: ($pointSize) 0  currentColor;
+      }
+    }
+  }
+
+  .upper-particles {
+    z-index: 0;
+    width: $pointSize;
+    height: $pointSize;
+    border-radius: $pointSize*2;
+    backface-visibility: hidden;
+    position: absolute;
+    animation-timing-function:  linear;
+    animation-duration: $animationDuration;
+    animation-name: move;
+    animation-iteration-count: infinite;
+    $colorRange: (
+      #334e80,
+      #ffffff,
+      #99ceff,
+    );
+    @for $i from 1 through $amount {
+      &:nth-child(#{$i}) {
+        color: nth($colorRange, random(length($colorRange)));
+        top: random(10) * 1%;
+        left: random(100) * 1%;
+        animation-duration: (random($animationDuration * 10) / 10) * 1s + 66s;
+        animation-delay: random(($animationDuration + 10s) * 10) / 10 * -100s;
+        transform-origin: (random(3) - 0) * 1vw (random(3) - 0) * 1vh;
+        box-shadow: ($pointSize) 0  currentColor;
+      }
+    }
+  }
+
+  
+  @keyframes move {
+    100% {
+      transform: translate3d(0, 0, 1px) rotate(360deg);
+    }
+  }
+
+  

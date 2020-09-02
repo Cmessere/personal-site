@@ -1,29 +1,38 @@
 .App {
   text-align: center;
-  background-color: #1a2b38;
+  background-color: #12181d;
   color: white;
   display: flex;
   flex-direction: column;
+  z-index: 1;
+  width: 100vw;
+  height: 100vh;
+}
+.background {
+
+  background: #12181d;
+  z-index: -1;
 }
 
-html, body {
-  width: 100%;
-  height: 100%;
-  background-color: #1a2b38;
+body {
+  margin: 0;
+  overflow: hidden;
+  z-index: 1;
 }
 
 .main-page-column{
   text-align: center;
   display: flex;
-  background-color: #1a2b38;
-  min-height: 8vh;
   display: flex;
   font-size: 5vw;
-  color: white;
+  z-index: 2;
+  margin: auto;
+  color: #ffffff;
 }
 
 .App-header {
-  background-color: #2e3f4d;
+  z-index: 3;
+  background-color: #1e3547;
   min-height: 8vh;
   display: flex;
   align-items: center;
@@ -32,6 +41,8 @@ html, body {
   color: white;
   font-weight: bolder;
   border-bottom: 1vh white solid;
+  z-index: 1;
+  background: linear-gradient(to bottom, #12181d, #1e3547);
 }
 
 .header-content{
@@ -44,6 +55,7 @@ html, body {
 
 .footer{
   margin: auto;
+  z-index: 1;
 }
 
 .content{
@@ -63,11 +75,13 @@ html, body {
 }
 
 .portrait{
-  width: 25vw;
-  height: 25vw;
-  border-radius: 25vw;
+  width: 16vw;
+  height: 16vw;
+  border-radius: 16vw;
   overflow: hidden;
-  border: 1vh #2e3f4d solid
+  padding: 0.5vh;
+  margin-right: 3vw;
+  border: 1vh #ffffff solid
 
 }
 .name{

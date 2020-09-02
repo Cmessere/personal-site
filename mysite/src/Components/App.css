@@ -44,7 +44,7 @@ body {
   font-size: 5vw;
   z-index: 2;
   margin: auto;
-  color: #ffffff;
+  color: #d0e4f7;
 }
 
 .App-header {
@@ -98,13 +98,16 @@ body {
   overflow: hidden;
   padding: 0.5vh;
   margin-right: 3vw;
-  border: 12px #ffffff solid
+  border: 3px #d0e4f7 solid
 
 }
 .name{
+  color:#d0e4f7;
   font-size: 8vw;
 }
 
 .profession{
+  color:#d0e4f7;
   font-size: 4vw;
+
 }

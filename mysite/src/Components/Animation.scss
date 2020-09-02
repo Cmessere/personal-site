@@ -30,7 +30,7 @@
         left: random(98) * 1%;
         animation-duration: (random($animationDuration * 3s) / 10) * 1s + 60s;
         animation-delay: random(($animationDuration + 3s) * 10) / 1 * -60s;
-        transform-origin: (random(100) - 10) * 0.9vw ((random(50) - 25) * 0.9vh + 2vh);
+        transform-origin: (random(100) - 10) * 0.9vw ((random(50) - 25) * 0.85vh + 7vh);
         box-shadow: ($pointSize) 0  currentColor;
         overflow: hidden;
 
@@ -60,7 +60,7 @@
       &:nth-child(#{$i}) {
         color: nth($colorRange, random(length($colorRange)));
         top: random(15) * 1%;
-        left: random(93) * 1%;
+        left: random(91) * 1%;
         animation-duration: (random($animationDuration * 10) / 10) * 1s + 100s;
         animation-delay: random(($animationDuration + 10s) * 10) / 10 * -100s;
         transform-origin: (random(3) - 0) * 0.8vw (random(3) - 0) * 0.9vh;

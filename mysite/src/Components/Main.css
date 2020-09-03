@@ -44,6 +44,7 @@ and (max-device-width : 480px) {
     border-radius: 68vw;
     display: flex;
     margin: auto;
+    margin-top: 45vw;
     border: 1vw #ffffff solid
   }
   .inner-portrait{
@@ -69,5 +70,43 @@ and (max-device-width : 480px) {
   .title{
     margin: auto;
   }
+
+}
+
+@media only screen 
+and (max-device-width : 320px) {
+  .portrait{
+    width: 68vw;
+    height: 68vw;
+    border-radius: 68vw;
+    display: flex;
+    margin: auto;
+    margin-top: 45vw;
+    border: 1vw #ffffff solid
+  }
+  .inner-portrait{
+    width: 66vw;
+    height: 66vw;
+    display: flex;
+    border-radius: 66vw;
+    margin: auto;
+    border: 0.6vw #d0e4f7 solid
+  }
+  
+  .name{
+    margin: auto;
+    font-size: 6vw;
+  }
+  
+  .work{
+    margin: auto;
+    font-size: 3vw;
+    margin-bottom: 5vw;
+  }
+  
+  .title{
+    margin: auto;
+  }
+
 
 }

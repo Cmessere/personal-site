@@ -30,7 +30,7 @@
         left: random(98) * 1%;
         animation-duration: (random($animationDuration * 3s) / 10) * 1s + 60s;
         animation-delay: random(($animationDuration + 3s) * 10) / 1 * -60s;
-        transform-origin: (random(100) - 10) * 0.9vw ((random(50) - 25) * 0.85vh + 7vh);
+        transform-origin: (random(100) - 10) * 0.9vw ((random(60) - 25) * 0.80vh + 10vh);
         box-shadow: ($pointSize) 0  currentColor;
         overflow: hidden;
 

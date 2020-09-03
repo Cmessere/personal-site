@@ -1,0 +1,49 @@
+.custom-link{
+    display: flex;
+    margin: auto;
+}
+
+a:link {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: ffffff;
+  }
+  
+  a:active {
+    color: ffffff;
+  }
+
+.App-header-row{
+    display: flex;
+}
+
+.contact-row{
+    font-size: 1.5vw;
+    min-width: 10vw;
+    max-width: 10vw;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.App-header-row:first-child{
+    margin-right: auto;
+    min-width: 60vw;
+    max-width: 60vw;
+    display: flex;
+    justify-content: flex-start;
+}
+.App-header-row:nth-child(2){
+    margin-left: auto;
+    min-width: 20vw;
+    max-width: 20vw;
+    display: flex;
+    justify-content: flex-start;
+}

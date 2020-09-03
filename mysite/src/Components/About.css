@@ -25,7 +25,7 @@
 .about-title{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bolder;
-    font-size: 4vw;
+    font-size: 5vw;
     margin-top: auto;
 }
 
@@ -53,10 +53,125 @@
     margin: auto;
     margin-right: 5vw;
     margin-bottom: 20vw;
-    border: 0.5vw #ffffff solid
+    border: 0.5vw #ffffff solid;
+
 }
 
 @media only screen 
 and (max-device-width : 320px) {
+    .about-page{
+        z-index: 3;
+        display: flex;
+        margin-bottom: auto;
+        margin-top: 15vh;
+        flex-direction: column;
+    }    
 
+
+    .about-row:nth-child(3){
+        margin: auto;
+        margin-top: 4vh;
+        display: flex;
+        width: 100%;
+    }
+    
+    .about-column{
+        display: flex;
+        max-height: 30vh;
+    }
+    
+    .about-title{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: bolder;
+        font-size: 2.5vh;
+        margin-top: auto;
+    }
+    
+    .about-sideparagraph{
+        margin-left: auto;
+        max-width: 55vw;
+        font-size: 1.7vh;
+        text-align: justify;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .about-paragraph{
+        margin: auto;
+        max-width: 90vw;
+        font-size: 1.8vh;
+        text-align: justify;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .about-portrait{
+        width: 32vw;
+        height: 32vw;
+        border-radius: 32vw;
+        display: flex;
+        margin: auto;
+        margin-right: 5vw;
+        border: 0.5vw #ffffff solid
+    }
+    
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+    .about-page{
+        z-index: 3;
+        display: flex;
+        margin-bottom: auto;
+        margin-top: 15vh;
+        flex-direction: column;
+    }    
+
+
+    .about-row:nth-child(3){
+        margin: auto;
+        margin-top: 4vh;
+        display: flex;
+        width: 100%;
+    }
+    
+    .about-column{
+        display: flex;
+        max-height: 30vh;
+    }
+    
+    .about-title{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: bolder;
+        font-size: 2.5vh;
+        margin-top: auto;
+    }
+    
+    .about-sideparagraph{
+        margin-left: auto;
+        max-width: 55vw;
+        font-size: 1.7vh;
+        text-align: justify;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        height: auto;
+        float: left;
+    }
+    
+    .about-paragraph{
+        margin: auto;
+        max-width: 90vw;
+        font-size: 1.8vh;
+        text-align: justify;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .about-portrait{
+        width: 32vw;
+        height: 32vw;
+        border-radius: 32vw;
+        display: flex;
+        margin: auto;
+        margin-right: 5vw;
+        border: 0.5vw #ffffff solid;
+    }
+    
 }

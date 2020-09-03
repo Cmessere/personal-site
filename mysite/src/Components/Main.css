@@ -1,12 +1,12 @@
   .name{
     margin: auto;
-    font-size:36px;
+    font-size:4vw;
   }
   
   .work{
     margin: auto;
     font-size: 20px;
-    margin-bottom: 5vw;
+    margin-bottom: 3vw;
   }
   
   .title{
@@ -16,23 +16,21 @@
 @media only screen 
 and (min-device-width : 720px) 
 {
-
-  
 .portrait{
-  width: 68vh;
-  height: 68vh;
-  border-radius: 68vh;
+  width: 44vw;
+  height: 44vw;
+  border-radius: 44vw;
   display: flex;
   margin: auto;
-  border: 1vh #ffffff solid
+  border: 0.5vw #ffffff solid
 }
 .inner-portrait{
-  width: 66vh;
-  height: 66vh;
+  width: 43vw;
+  height: 43vw;
   display: flex;
-  border-radius: 66vh;
+  border-radius: 43vw;
   margin: auto;
-  border: 0.6vh #d0e4f7 solid
+  border: 0.2vw #d0e4f7 solid
 }
 }
 

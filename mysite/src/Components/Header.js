@@ -17,7 +17,7 @@ export const Header = () => {
       <div className="App-header-row">
         <div className="header-content" onClick={() => changePage("")}>HOME</div>
         <div className="header-content" onClick={() => changePage("about")}>ABOUT</div>
-        <div className="header-content" onClick={() => changePage("blog")}>BLOG</div>
+        <div className="header-content" onClick={() => changePage("links")}>LINKS</div>
       </div>
       <div className="App-header-row">
       <div className="contact-row">

@@ -3,7 +3,7 @@ import './App.css';
 import './Animation.scss';
 import { Switch, Route } from 'react-router';
 import { Main } from './Main';
-import { Blog } from './Blog';
+import { Links } from './Links';
 import { About } from './About';
 import { Particles } from './Particles';
 import { Header } from './Header';
@@ -22,8 +22,8 @@ function App() {
             <Route exact path="/about">
               <About />
             </Route>
-            <Route exact path="/blog">
-              <Blog />
+            <Route exact path="/links">
+              <Links />
             </Route>
         </Switch>
         </div>

@@ -1,8 +1,6 @@
 .App {
   text-align: center;
   background: linear-gradient(to bottom, #12181d, #2d475e, #12181d);
-
-  background-color: #12181d;
   color: white;
   display: flex;
   flex-direction: column;
@@ -25,7 +23,6 @@
 
 .background {
   overflow: hidden;
-  background: linear-gradient(to bottom, #12181d, #1e3547);
 
   background: #12181d;
   z-index: -1;
@@ -59,7 +56,6 @@ body {
   font-weight: bolder;
   border-bottom: 0.5vh white solid;
   z-index: 1;
-  background: linear-gradient(to bottom, #12181d, #1e3547);
 }
 
 .header-content{
@@ -77,7 +73,6 @@ body {
 
 .main-div{
   display: flex;
-  flex-direction: column;
   align-content: flex-start;
   justify-content: flex-start;
   margin: auto;
@@ -88,14 +83,21 @@ body {
 }
 
 .portrait{
-  width: 10vw;
-  height: 10vw;
-  border-radius: 10vw;
-  overflow: hidden;
-  padding: 0.5vh;
-  margin-right: 3vw;
-  border: 3px #d0e4f7 solid
+  width: 50vw;
+  height: 50vw;
+  border-radius: 50vw;
+  display: flex;
 
+  margin: auto;
+  border: 10px #ffffff solid
+}
+.inner-portrait{
+  width: 48vw;
+  height: 48vw;
+  display: flex;
+  border-radius: 48vw;
+  margin: auto;
+  border: 6px #d0e4f7 solid
 }
 
 .root{
@@ -104,19 +106,17 @@ body {
 }
 
 .name{
-  color:#d0e4f7;
+  margin: auto;
+
+  font-size: 6vw;
+}
+
+.work{
+  margin: auto;
   font-size: 3vw;
 }
 
-.footer{
-  font-size: 3vw;
-
-  margin-top: -20vh;
-  z-index: 1;
-}
-
-
-.profession{
-  color:#d0e4f7;
-  font-size: 2vw;
+.title{
+  margin: auto;
+  font-size: 6vw;
 }

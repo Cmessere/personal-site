@@ -1,0 +1,32 @@
+
+.portrait{
+  width: 68vh;
+  height: 68vh;
+  border-radius: 68vh;
+  display: flex;
+  margin: auto;
+  border: 1vh #ffffff solid
+}
+.inner-portrait{
+  width: 66vh;
+  height: 66vh;
+  display: flex;
+  border-radius: 66vh;
+  margin: auto;
+  border: 0.6vh #d0e4f7 solid
+}
+
+.name{
+  margin: auto;
+  font-size: 6vw;
+}
+
+.work{
+  margin: auto;
+  font-size: 3vw;
+  margin-bottom: 5vh;
+}
+
+.title{
+  margin: auto;
+}

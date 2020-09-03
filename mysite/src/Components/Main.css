@@ -17,6 +17,8 @@
 and (min-device-width : 720px) 
 {
 .portrait{
+  cursor: pointer;
+
   width: 44vw;
   height: 44vw;
   border-radius: 44vw;
@@ -52,6 +54,8 @@ and (max-device-width : 480px) {
 
   .portrait{
     width: 68vw;
+    cursor: pointer;
+
     height: 68vw;
     border-radius: 68vw;
     display: flex;
@@ -84,6 +88,8 @@ and (max-device-width : 320px) {
 
   
   .portrait{
+    cursor: pointer;
+
     width: 68vw;
     height: 68vw;
     border-radius: 68vw;

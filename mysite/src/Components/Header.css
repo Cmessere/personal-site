@@ -22,7 +22,9 @@ a:link {
     display: flex;
 }
 
-
+@media only screen 
+and (min-device-width : 720px) 
+{
 .App-header-row:first-child{
     margin-right: auto;
     min-width: 60vw;
@@ -38,10 +40,6 @@ a:link {
     justify-content: flex-start;
 }
 
-
-
-
-
   .header-content{
     display: flex;
     margin-left: 2vw;
@@ -53,8 +51,8 @@ a:link {
   .custom-link{
     display: flex;
     margin: auto;
-    margin-left: 1vh;
-    margin-right: 1vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
   }
   
   .App-header {
@@ -80,28 +78,14 @@ a:link {
   }
 
   .contact-row{
-    font-size: 32px;
-    min-width: 10vw;
-    max-width: 10vw;
+    font-size: 28px;
+    margin: auto;
     display: flex;
     justify-content: flex-start;
 }
 
-.App-header-row:first-child{
-  margin-right: auto;
-  min-width: 60vw;
-  max-width: 60vw;
-  display: flex;
-  justify-content: flex-start;
-}
-.App-header-row:nth-child(2){
-  margin-left: auto;
-  min-width: 25vw;
-  max-width: 25vw;
-  display: flex;
-  justify-content: flex-start;
-}
 
+}
 
 @media only screen 
 and (min-device-width : 320px) 
@@ -207,7 +191,7 @@ and (max-device-width : 320px) {
   }
 
   .contact-row{
-    font-size: 20px;
+    font-size: 16px;
     min-width: 5vw;
     max-width: 5vw;
     display: flex;

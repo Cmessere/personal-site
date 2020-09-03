@@ -1,7 +1,23 @@
+  .name{
+    margin: auto;
+    font-size:36px;
+  }
+  
+  .work{
+    margin: auto;
+    font-size: 20px;
+    margin-bottom: 5vw;
+  }
+  
+  .title{
+    margin: auto;
+  }
+
 @media only screen 
 and (min-device-width : 720px) 
 {
 
+  
 .portrait{
   width: 68vh;
   height: 68vh;
@@ -18,26 +34,24 @@ and (min-device-width : 720px)
   margin: auto;
   border: 0.6vh #d0e4f7 solid
 }
-
-.name{
-  margin: auto;
-  font-size: 6vw;
-}
-
-.work{
-  margin: auto;
-  font-size: 3vw;
-  margin-bottom: 5vh;
-}
-
-.title{
-  margin: auto;
-}
 }
 
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
+  .name{
+    margin: auto;
+    font-size:32px;
+
+  }
+  
+  .work{
+    margin: auto;
+    font-size:20px;
+    
+    margin-bottom: 5vw;
+  }
+
   .portrait{
     width: 68vw;
     height: 68vw;
@@ -55,26 +69,22 @@ and (max-device-width : 480px) {
     margin: auto;
     border: 0.6vw #d0e4f7 solid
   }
-  
-  .name{
-    margin: auto;
-    font-size: 6vw;
-  }
-  
-  .work{
-    margin: auto;
-    font-size: 3vw;
-    margin-bottom: 5vw;
-  }
-  
-  .title{
-    margin: auto;
-  }
-
 }
 
 @media only screen 
 and (max-device-width : 320px) {
+  .name{
+    margin: auto;
+    font-size:24px;
+  }
+  
+  .work{
+    margin: auto;
+    font-size: 12px;
+    margin-bottom: 5vw;
+  }
+
+  
   .portrait{
     width: 68vw;
     height: 68vw;
@@ -92,21 +102,4 @@ and (max-device-width : 320px) {
     margin: auto;
     border: 0.6vw #d0e4f7 solid
   }
-  
-  .name{
-    margin: auto;
-    font-size: 6vw;
-  }
-  
-  .work{
-    margin: auto;
-    font-size: 3vw;
-    margin-bottom: 5vw;
-  }
-  
-  .title{
-    margin: auto;
-  }
-
-
 }

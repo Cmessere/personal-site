@@ -19,20 +19,24 @@ and (min-device-width : 720px)
 .portrait{
   cursor: pointer;
 
-  width: 44vw;
-  height: 44vw;
-  border-radius: 44vw;
+  width: 42vw;
+  height: 42vw;
+  border-radius: 42vw;
   display: flex;
   margin: auto;
   border: 0.5vw #ffffff solid
 }
 .inner-portrait{
-  width: 43vw;
-  height: 43vw;
+  width: 41vw;
+  height: 41vw;
   display: flex;
-  border-radius: 43vw;
+  border-radius: 41vw;
   margin: auto;
-  border: 0.2vw #d0e4f7 solid
+  border: 0.2vw #d0e4f7 solid;
+  background-color:#d0e4f73b;
+}
+.inner-portrait:hover{
+  background-color:#d0e4f794;
 }
 }
 
@@ -69,7 +73,11 @@ and (max-device-width : 480px) {
     display: flex;
     border-radius: 66vw;
     margin: auto;
+    background-color:#d0e4f73b;
     border: 0.6vw #d0e4f7 solid
+  }
+  .inner-portrait:hover{
+    background-color:#d0e4f794;
   }
 }
 
@@ -104,6 +112,11 @@ and (max-device-width : 320px) {
     display: flex;
     border-radius: 66vw;
     margin: auto;
-    border: 0.6vw #d0e4f7 solid
+    border: 0.6vw #d0e4f7 solid;
+    background-color:#d0e4f73b;
+  }
+
+  .inner-portrait:hover{
+    background-color:#d0e4f794;
   }
 }

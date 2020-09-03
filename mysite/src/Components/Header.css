@@ -1,6 +1,8 @@
 .custom-link{
     display: flex;
     margin: auto;
+    margin-left: 1vh;
+    margin-right: 1vh;
 }
 
 a:link {
@@ -14,11 +16,11 @@ a:link {
   }
   
   a:hover {
-    color: ffffff;
+    color: #ffffff;
   }
   
   a:active {
-    color: ffffff;
+    color: #ffffff;
   }
 
 .App-header-row{
@@ -26,7 +28,7 @@ a:link {
 }
 
 .contact-row{
-    font-size: 1.5vw;
+    font-size: 32px;
     min-width: 10vw;
     max-width: 10vw;
     display: flex;

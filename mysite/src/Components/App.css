@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background: linear-gradient(to bottom, #12181d, #2d475e, #12181d);
+
   background-color: #12181d;
   color: white;
   display: flex;
@@ -23,6 +25,7 @@
 
 .background {
   overflow: hidden;
+  background: linear-gradient(to bottom, #12181d, #1e3547);
 
   background: #12181d;
   z-index: -1;

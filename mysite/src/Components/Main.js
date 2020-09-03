@@ -1,5 +1,4 @@
 import React from 'react';
-import photo from "../Images/prova.jpg";
 import './App.css';
 
 export const Main = () => {

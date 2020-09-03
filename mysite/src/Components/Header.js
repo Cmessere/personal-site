@@ -21,10 +21,10 @@ export const Header = () => {
       </div>
       <div className="App-header-row">
       <div className="contact-row">
-        <a className="custom-link" href="https://www.linkedin.com/in/carlo-messere-65a193115/" target="_blank">
+        <a className="custom-link" href="https://www.linkedin.com/in/carlo-messere-65a193115/" rel="noopener noreferrer" target="_blank">
           <FontAwesomeIcon className="contact-icon" icon={faLinkedin} />
         </a>
-        <a className="custom-link" href="https://www.github.com/shiro23/" target="_blank">
+        <a className="custom-link" href="https://www.github.com/shiro23/" rel="noopener noreferrer" target="_blank">
           <FontAwesomeIcon className="contact-icon" icon={faGithub} />
         </a>
         <a className="custom-link" href="mailto: messerecarlo27@gmail.com" >

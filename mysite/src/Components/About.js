@@ -10,7 +10,7 @@ export const About = () => {
       </div>
       <div className="about-row">
         <div className="about-column">
-          <img className="about-portrait" src={prova}>
+          <img className="about-portrait" src={prova} alt="portrait">
           </img>
         </div>
         <div className="about-column">

@@ -126,7 +126,7 @@ and (max-device-width : 320px) {
 
 .portrait{
   animation-timing-function:  linear;
-  animation-duration: 8s;
+  animation-duration: 20s;
   animation-name: breathe;
   animation-iteration-count: infinite;
 }
@@ -136,7 +136,7 @@ and (max-device-width : 320px) {
     transform: scale(1);
   }
   50%{
-    transform: scale(.95);
+    transform: scale(.96);
   }
   0%{
     transform: scale(1);

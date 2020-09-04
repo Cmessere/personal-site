@@ -25,6 +25,10 @@ export const About = () => {
         All the while in my free time I started tinkering more with engines and libraries,
         developing simple games as a hobby.
       </p>
+      <p className="about-paragraph">
+        After graduating I started working in the Development Team of my current company as a Full-Stack and
+        web developer. Due to team dynamics I specialized in Front-End development, specifically with React.js and Office.js. 
+      </p>
     </div>
   );
 };

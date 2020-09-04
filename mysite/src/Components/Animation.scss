@@ -60,7 +60,7 @@
       &:nth-child(#{$i}) {
         color: nth($colorRange, random(length($colorRange)));
         top: random(15) * 1%;
-        left: random(91) * 1%;
+        left: random(96) * 1%;
         animation-duration: (random($animationDuration * 10) / 10) * 1s + 100s;
         animation-delay: random(($animationDuration + 10s) * 10) / 10 * -100s;
         transform-origin: (random(3) - 0) * 0.8vw (random(3) - 0) * 0.9vh;
@@ -71,10 +71,17 @@
     }
   }
 
+
   
   @keyframes move {
     100% {
-      transform: translate3d(0, 0, 0) rotate(720deg );
+      transform: translate3d(0, 0, 0) rotate(720deg ) scale(.95);
+    }
+    50%{
+      transform: scale(3);
+    }
+    0%{
+      transform: scale(1);
     }
   }
   @keyframes goUp {
@@ -84,6 +91,47 @@
     }
     0%{
       transform: translate3d(1vh, 85vh, 0) rotate(0);
+    }
+  }
+
+
+  
+  @media only screen 
+  and (min-device-width : 720px) {
+    $pointSize: .4vh;
+    $animationDuration: 33s;
+    $amount: 1000;
+    .upper-particles {
+      overflow: hidden;
+  
+      z-index: 0;
+      width: $pointSize;
+      height: $pointSize;
+      border-radius: $pointSize*2;
+      backface-visibility: hidden;
+      position: absolute;
+      animation-timing-function:  linear;
+      animation-duration: $animationDuration;
+      animation-name: move;
+      animation-iteration-count: infinite;
+      $colorRange: (
+        #334e80,
+        #ffffff,
+        #99ceff,
+      );
+      @for $i from 1 through $amount {
+        &:nth-child(#{$i}) {
+          color: nth($colorRange, random(length($colorRange)));
+          top: random(15) * 1%;
+          left: random(100) * 1%;
+          animation-duration: (random($animationDuration * 10) / 10) * 1s + 100s;
+          animation-delay: random(($animationDuration + 10s) * 10) / 10 * -100s;
+          transform-origin: (random(3) - 0) * 0.8vw (random(3) - 0) * 0.9vh;
+          box-shadow: ($pointSize) 0  currentColor;
+          overflow: hidden;
+  
+        }
+      }
     }
   }
 

@@ -26,8 +26,8 @@ export const About = () => {
         developing simple games as a hobby.
       </p>
       <p className="about-paragraph">
-        After graduating I started working in the Development Team of my current company as a Full-Stack and
-        web developer. Due to team dynamics I specialized in Front-End development, specifically with React.js and Office.js. 
+        After graduating I started working in the Development Team of my current company.
+        As of now I am specialized in Front-End and Web development, in particular with React.js and Office.js. 
       </p>
     </div>
   );

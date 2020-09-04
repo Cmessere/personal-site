@@ -52,7 +52,7 @@ and (min-device-width : 720px)
   
   .App-header {
     z-index: 3;
-    background-color: #1e3547;
+    background-color: #1e3547d8;
     min-height: 8vh;
     display: flex;
     align-items: center;
@@ -102,7 +102,7 @@ and (max-device-width : 480px) {
   
   .App-header {
     z-index: 3;
-    background-color: #1e3547;
+    background-color: #1e3547d8;
     min-height: 8vh;
     display: flex;
     align-items: center;
@@ -156,7 +156,7 @@ and (max-device-width : 320px) {
   
   .App-header {
     z-index: 3;
-    background-color: #1e3547;
+    background-color: #1e3547d8;
     min-height: 8vh;
     display: flex;
     align-items: center;

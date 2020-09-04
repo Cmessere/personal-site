@@ -220,7 +220,6 @@ and (max-device-width : 320px) {
   }
   .App-header-row:nth-child(2){
     margin-left: auto;
-
     display: flex;
     justify-content: flex-start;
   }

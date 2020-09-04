@@ -1,8 +1,11 @@
 import React from 'react';
 import './About.css';
 import prova from './images/prova.jpg';
+import { useHistory } from 'react-router';
 
 export const About = () => {
+  let history = useHistory();
+
   return (
     <div className="about-page">
       <h1 className="about-title">Hi I am Carlo, Welcome to my site!</h1>
@@ -28,6 +31,9 @@ export const About = () => {
       <p className="about-paragraph">
         After graduating I started working in the Development Team of my current company.
         As of now I am specialized in Front-End and Web development, in particular with React.js and Office.js. 
+      </p>
+      <p className="about-paragraph" onClick={() => history.push("links")}>
+        Click here if you want to get in contanct!
       </p>
     </div>
   );

@@ -1,0 +1,30 @@
+.contact-bubble{
+    cursor: pointer;  
+    width: auto;
+    height: auto;
+    border-radius: 42vw;
+    display: inline-block;
+    margin: auto;
+    
+  }
+  .inner-contact-bubble{
+    width: auto;
+    height: auto;
+    display: inline-block;
+    border-radius: 41vw;
+    margin: auto;
+    border: 0.2vw #ffffff solid;
+    background-color:#d0e4f73b;
+  }
+  .inner-contact-bubble:hover{
+    background-color:#d0e4f794;
+  }
+  
+  .bubble-link{
+
+  }
+
+  .bubble-icon{
+    font-size: 4vw;
+    padding: 4vw;
+  }

@@ -1,30 +1,130 @@
+
+  @media only screen 
+  and (min-device-width : 720px) {
+.Link-page{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+}
+.link-component{
+    display: flex;
+    min-width: 35vh;
+}
+.link-component:nth-child(2){
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.link-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    min-width: 30%;
+}
+
+.link-row:nth-child(3){
+    flex-direction: column;
+
+}
+
 .contact-bubble{
     cursor: pointer;  
-    width: auto;
-    height: auto;
     border-radius: 42vw;
     display: inline-block;
-    margin: auto;
-    
-  }
-  .inner-contact-bubble{
-    width: auto;
-    height: auto;
+}
+
+.inner-contact-bubble{
     display: inline-block;
     border-radius: 41vw;
-    margin: auto;
     border: 0.2vw #ffffff solid;
     background-color:#d0e4f73b;
-  }
-  .inner-contact-bubble:hover{
+}
+.inner-contact-bubble:hover{
     background-color:#d0e4f794;
-  }
-  
-  .bubble-link{
+}
 
-  }
+.contact-name{
+    margin: auto;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    font-size: 4vh;
+}
 
   .bubble-icon{
-    font-size: 4vw;
-    padding: 4vw;
+    font-size: 8vh;
+    padding: 3vh 3.5vh;
   }
+  .bubble-icon-height{
+    font-size: 8vh;
+    padding: 3vh 4vh;
+}
+  }
+
+
+  @media only screen 
+and (max-device-width : 320px) {
+    .Link-page{
+        display: flex;
+        margin-top: 20vw;
+        flex-direction: column;
+    }
+    .link-component{
+        display: flex;
+        flex-direction: column;
+        min-width: 45vw;
+    }
+    .link-component:nth-child(2){
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column-reverse;
+    }
+    .link-row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: auto;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+        min-width: 30%;
+    }
+    
+    .link-row:nth-child(3){
+        flex-direction: column;
+    
+    }
+    
+    .contact-bubble{
+        cursor: pointer;  
+        border-radius: 42vw;
+        display: inline-block;
+    }
+    
+    .inner-contact-bubble{
+        display: inline-block;
+        border-radius: 41vw;
+        border: 0.6vh #ffffff solid;
+        background-color:#d0e4f73b;
+    }
+    .inner-contact-bubble:hover{
+        background-color:#d0e4f794;
+    }
+    
+    .contact-name{
+        margin: auto;
+        margin-left: 1vw;
+        margin-right: 1vw;
+        font-size: 3vw;
+    }
+    
+      .bubble-icon{
+        font-size: 12vw;
+        padding: 9vw 9.5vw;
+      }
+      .bubble-icon-height{
+        font-size: 12vw;
+        padding: 9vw 10vw;
+    }
+}

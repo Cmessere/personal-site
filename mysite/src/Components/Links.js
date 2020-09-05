@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithub, faGooglePlay } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope, faFile } from '@fortawesome/free-solid-svg-icons'
 import "./Links.css"
+import "./LinksAnimation.scss"
 
 export const Links = () => {
   return (

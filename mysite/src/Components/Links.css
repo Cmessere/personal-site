@@ -39,12 +39,13 @@
 }
 
 .contact-bubble{
-    cursor: pointer;  
     border-radius: 42vw;
     display: flex;
 }
 
 .inner-contact-bubble{
+    cursor: pointer;  
+
     display: flex;
     border-radius: 41vw;
     border: 0.8vh #ffffff solid;
@@ -110,13 +111,14 @@ and (max-device-width : 320px) {
     
     .contact-bubble{
         margin: auto;
-        cursor: pointer;  
         border-radius: 42vw;
         display: flex;
 
     }
     
     .inner-contact-bubble{
+        cursor: pointer;  
+
         display: flex;
         border-radius: 41vw;
         border: 0.6vh #ffffff solid;
@@ -160,6 +162,7 @@ and (max-device-width : 480px) {
         display: flex;
         flex-direction: column;
         min-width: 45vw;
+        
     }
     .link-component:nth-child(2){
         display: flex;
@@ -183,13 +186,13 @@ and (max-device-width : 480px) {
     
     .contact-bubble{
         margin: auto;
-        cursor: pointer;  
         border-radius: 42vw;
         display: flex;
 
     }
     
     .inner-contact-bubble{
+        cursor: pointer;  
         display: flex;
         border-radius: 41vw;
         border: 0.6vh #ffffff solid;

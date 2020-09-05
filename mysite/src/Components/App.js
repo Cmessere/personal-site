@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import './Animation.scss';
+import './ParticlesAnimation.scss';
 import { Switch, Route } from 'react-router';
 import { Main } from './Main';
 import { Links } from './Links';

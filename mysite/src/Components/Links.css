@@ -1,4 +1,8 @@
-
+.Link-page{
+    z-index: 3;
+}
+  
+  
   @media only screen 
   and (min-device-width : 720px) {
 .Link-page{
@@ -8,11 +12,14 @@
 }
 .link-component{
     display: flex;
-    min-width: 35vh;
+    flex-direction: column;
+    min-width: 50vh;
 }
 .link-component:nth-child(2){
     display: flex;
     justify-content: flex-end;
+    flex-direction: column-reverse;
+    min-width: 50vh;
     
 }
 .link-row{
@@ -20,27 +27,29 @@
     flex-direction: row;
     justify-content: space-between;
     margin: auto;
-    margin-top: 5vh;
-    margin-bottom: 5vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
     min-width: 30%;
 }
 
 .link-row:nth-child(3){
     flex-direction: column;
-
 }
 
 .contact-bubble{
     cursor: pointer;  
     border-radius: 42vw;
-    display: inline-block;
+    display: flex;
 }
 
 .inner-contact-bubble{
-    display: inline-block;
+    display: flex;
     border-radius: 41vw;
-    border: 0.2vw #ffffff solid;
+    border: 0.8vh #ffffff solid;
     background-color:#d0e4f73b;
+    width: 19vh;
+    height: 19vh;
+    margin: auto;
 }
 .inner-contact-bubble:hover{
     background-color:#d0e4f794;
@@ -54,12 +63,13 @@
 }
 
   .bubble-icon{
-    font-size: 8vh;
-    padding: 3vh 3.5vh;
+    font-size: 11vh;
   }
   .bubble-icon-height{
-    font-size: 8vh;
-    padding: 3vh 4vh;
+    font-size: 11vh;
+}
+.bubble-link{
+    margin: auto;
 }
   }
 
@@ -86,7 +96,7 @@ and (max-device-width : 320px) {
         flex-direction: row;
         justify-content: space-between;
         margin: auto;
-        margin-top: 5vh;
+        margin-top: 3vh;
         margin-bottom: 5vh;
         min-width: 30%;
     }
@@ -97,16 +107,21 @@ and (max-device-width : 320px) {
     }
     
     .contact-bubble{
+        margin: auto;
         cursor: pointer;  
         border-radius: 42vw;
-        display: inline-block;
+        display: flex;
+
     }
     
     .inner-contact-bubble{
-        display: inline-block;
+        display: flex;
         border-radius: 41vw;
         border: 0.6vh #ffffff solid;
         background-color:#d0e4f73b;
+        width: 32vw;
+        height: 32vw;
+        margin: auto;
     }
     .inner-contact-bubble:hover{
         background-color:#d0e4f794;
@@ -116,15 +131,91 @@ and (max-device-width : 320px) {
         margin: auto;
         margin-left: 1vw;
         margin-right: 1vw;
-        font-size: 3vw;
+        font-size: 6vw;
     }
     
       .bubble-icon{
-        font-size: 12vw;
-        padding: 9vw 9.5vw;
+        font-size: 16vw;
+        margin: auto;
       }
       .bubble-icon-height{
-        font-size: 12vw;
-        padding: 9vw 10vw;
+        font-size: 16vw;
+    }
+    .bubble-link{
+        margin: auto;
     }
 }
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+    .Link-page{
+        display: flex;
+        margin-top: 20vw;
+        flex-direction: column;
+    }
+    .link-component{
+        display: flex;
+        flex-direction: column;
+        min-width: 45vw;
+    }
+    .link-component:nth-child(2){
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column-reverse;
+    }
+    .link-row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: auto;
+        margin-top: 3vh;
+        margin-bottom: 5vh;
+        min-width: 30%;
+    }
+    
+    .link-row:nth-child(3){
+        flex-direction: column;
+    
+    }
+    
+    .contact-bubble{
+        margin: auto;
+        cursor: pointer;  
+        border-radius: 42vw;
+        display: flex;
+
+    }
+    
+    .inner-contact-bubble{
+        display: flex;
+        border-radius: 41vw;
+        border: 0.6vh #ffffff solid;
+        background-color:#d0e4f73b;
+        width: 32vw;
+        height: 32vw;
+        margin: auto;
+    }
+    .inner-contact-bubble:hover{
+        background-color:#d0e4f794;
+    }
+    
+    .contact-name{
+        margin: auto;
+        margin-left: 1vw;
+        margin-right: 1vw;
+        font-size: 6vw;
+    }
+    
+      .bubble-icon{
+        font-size: 16vw;
+        margin: auto;
+      }
+      .bubble-icon-height{
+        font-size: 16vw;
+    }
+    .bubble-link{
+        margin: auto;
+    }
+}
+

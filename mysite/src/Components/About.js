@@ -34,7 +34,7 @@ export const About = () => {
         As of now I am specialized in Front-End and Web development, in particular with React.js and Office.js. 
       </p>
       <p className="about-paragraph" onClick={() => history.push("links")}>
-        Click here if you want to get in contanct!
+        Click here if you want to get in contact!
       </p>
     </div>
   );

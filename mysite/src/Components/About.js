@@ -1,5 +1,6 @@
 import React from 'react';
 import './About.css';
+import './AboutAnimation.scss';
 import prova from './images/prova.jpg';
 import { useHistory } from 'react-router';
 

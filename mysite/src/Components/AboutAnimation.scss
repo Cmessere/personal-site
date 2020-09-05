@@ -1,0 +1,18 @@
+.curve{
+    animation-timing-function:  ease-in-out;
+    animation-duration: 7s;
+    animation-name: bubble;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bubble {
+    100% {
+      transform: translate3d(0, 0, 0) scale(1) ;
+    }
+    50% {
+    transform: translate3d(0, 5px, 0) scale(1.02) ;
+      }
+    0%{
+      transform: translate3d(0, 0, 0) scale(1);
+    }
+  }

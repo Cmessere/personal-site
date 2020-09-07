@@ -1,7 +1,7 @@
 import React from 'react';
 import './About.css';
 import './AboutAnimation.scss';
-import prova from './images/prova.jpg';
+import photo from './images/photo.png';
 import { useHistory } from 'react-router';
 
 export const About = () => {
@@ -10,7 +10,7 @@ export const About = () => {
   return (
     <div className="about-page">
       <h1 className="about-title">Hi I am Carlo, Welcome to my site!</h1>
-      <img className="curve" src={prova} alt="curve"></img>
+      <img className="curve" src={photo} alt="curve"></img>
       <p className="about-paragraph">
         I've always wanted to work in the gaming industry, but I could not decide wether as an artist, a designer or even as a voice actor!
       </p>

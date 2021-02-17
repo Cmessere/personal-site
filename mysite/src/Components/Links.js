@@ -23,7 +23,7 @@ export const Links = () => {
           <h1 className="contact-name">Apps</h1>
           <div className="contact-bubble">
             <div className="inner-contact-bubble">
-              <a className="bubble-link" href="https://play.google.com/store/apps/developer?id=Cesarsk+Dev+Team" rel="noopener noreferrer" target="_blank" >
+              <a className="bubble-link" href="https://github.com/Cesarsk-Dev-Team" rel="noopener noreferrer" target="_blank" >
                 <FontAwesomeIcon className="bubble-icon" icon={faGooglePlay} />
               </a>
             </div>

@@ -45,7 +45,7 @@ export const Links = () => {
           <h1 className="contact-name">GitHub</h1>
           <div className="contact-bubble">
             <div className="inner-contact-bubble">
-              <a className="bubble-link" href="https://www.github.com/shiro23/" rel="noopener noreferrer" target="_blank">
+              <a className="bubble-link" href="https://www.github.com/cmessere/" rel="noopener noreferrer" target="_blank">
                 <FontAwesomeIcon className="bubble-icon" icon={faGithub} />
               </a>
             </div>

@@ -12,7 +12,7 @@ export const Links = () => {
         <div className="link-component">
           <div className="contact-bubble">
             <div className="inner-contact-bubble">
-              <a className="bubble-link" href="https://drive.google.com/file/d/1ernt9zJ9XScOMrafIFE-jc01Jk_Mybnv/view?usp=sharing"  rel="noopener noreferrer" target="_blank">
+              <a className="bubble-link" href="https://drive.google.com/file/d/12jz3CIT_Fhz06kGBCfuKwmKPevDzA_Nq/view?usp=sharing"  rel="noopener noreferrer" target="_blank">
                 <FontAwesomeIcon className="bubble-icon-height" icon={faFile} />
               </a>
             </div>

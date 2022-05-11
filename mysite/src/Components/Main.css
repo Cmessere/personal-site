@@ -29,6 +29,7 @@ and (min-device-width : 720px)
   border-radius: 42vw;
   display: flex;
   margin: auto;
+  margin-top: 3vh;
   border: 0.5vw #ffffff solid
 }
 .inner-portrait{
@@ -37,11 +38,11 @@ and (min-device-width : 720px)
   display: flex;
   border-radius: 41vw;
   margin: auto;
-  border: 0.2vw #fe050571 solid;
-  background-color:#fe050571;
+  border: 0.2vw #cf8b7a67 solid;
+  background-color:#fc654367;
 }
 .inner-portrait:hover{
-  background-color:#fc654367;
+  background-color:#cf8b7a67;
 }
 }
 
@@ -78,11 +79,11 @@ and (max-device-width : 480px) {
     display: flex;
     border-radius: 66vw;
     margin: auto;
-    background-color:#fe050571;
-    border: 0.6vw #fe050571 solid
+    background-color:#cf8b7a67;
+    border: 0.6vw #fc654367 solid
   }
   .inner-portrait:hover{
-    background-color:#fc654367;
+    background-color:#cf8b7a67;
   }
 }
 
@@ -117,12 +118,12 @@ and (max-device-width : 320px) {
     display: flex;
     border-radius: 66vw;
     margin: auto;
-    border: 0.6vw #fe050571 solid;
-    background-color:#fe050571;
+    border: 0.6vw #cf8b7a67 solid;
+    background-color:#fc654367;
   }
 
   .inner-portrait:hover{
-    background-color:#fc654367;
+    background-color:#cf8b7a67;
   }
 }
 

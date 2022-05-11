@@ -13,10 +13,10 @@ function App() {
       <div className="background">
         <div className="App">
           <Header></Header>
-            <Particles />
             <Main />
             <About />
             <Links />
+            <Particles />
         </div>
       </div>
     </div>

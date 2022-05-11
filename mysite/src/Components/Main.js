@@ -1,16 +1,13 @@
 import React from 'react';
 import './Main.css';
-import { useHistory } from 'react-router';
 
 export const Main = () => {
-  let history = useHistory()
   return (
           <div className="main-page">
-                <div className="portrait" onClick={()=>history.push("/about")}>
+                <div className="portrait" onClick={()=> console.log("yo")}>
                   <div className="inner-portrait">
                     <div className="title">
-                      <p className="name"> Carlo Messere</p>
-                      <p className="work"> Software Developer</p>
+                      <p className="name"> START</p>
                     </div>
                   </div>
               </div>

@@ -2,7 +2,6 @@
 	float: left;
 	margin-right:2vw; 
     shape-outside:circle();
-    overflow: hidden;
     width: 20vw;
     height: 20vw;
     border-radius: 20vw;

@@ -49,13 +49,13 @@
     display: flex;
     border-radius: 41vw;
     border: 0.8vh #ffffff solid;
-    background-color:#d0e4f73b;
+    background-color:#fe050571;
     width: 19vh;
     height: 19vh;
     margin: auto;
 }
 .inner-contact-bubble:hover{
-    background-color:#d0e4f794;
+    background-color:#f53b3b71;
 }
 
 .contact-name{
@@ -122,13 +122,13 @@ and (max-device-width : 320px) {
         display: flex;
         border-radius: 41vw;
         border: 0.6vh #ffffff solid;
-        background-color:#d0e4f73b;
+        background-color:#fe050571;
         width: 32vw;
         height: 32vw;
         margin: auto;
     }
     .inner-contact-bubble:hover{
-        background-color:#d0e4f794;
+        background-color:#f53b3b71;
     }
     
     .contact-name{
@@ -196,13 +196,13 @@ and (max-device-width : 480px) {
         display: flex;
         border-radius: 41vw;
         border: 0.6vh #ffffff solid;
-        background-color:#d0e4f73b;
+        background-color:#fe050571;
         width: 32vw;
         height: 32vw;
         margin: auto;
     }
     .inner-contact-bubble:hover{
-        background-color:#d0e4f794;
+        background-color:#f53b3b71;
     }
     
     .contact-name{

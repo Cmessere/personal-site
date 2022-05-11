@@ -1,9 +1,11 @@
   .main-page{
     font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 100vh;
   }
+
   .name{
     margin: auto;
-    font-size:4vw;
+    font-size:12vw;
   }
   
   .work{

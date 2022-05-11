@@ -1,27 +1,29 @@
 .curve { 
 	float: left;
-	margin-right:2vw; 
+	margin-right:3vw; 
     shape-outside:circle();
-    width: 20vw;
-    height: 20vw;
+    width: 15vw;
+    height: 15vw;
     border-radius: 20vw;
-    border: 0.5vw #ffffff solid;
+    border: 0.75vw #ffffff solid;
 }
 .about-paragraph{
     text-align: left;
     margin-left: 1vw;
-    max-width: 55vw;
+    max-width: 75vw;
     text-justify: justify;
     word-spacing: .5vh;
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
 .about-page{
+
     margin-top: 25vh;
     margin: auto;
     z-index: 3;
     height: 100vh;
 }
 .about-title{
+    text-align: left;
     margin: auto;
     margin-bottom:1vh;
     font-size: 3em;

@@ -6,7 +6,6 @@
   $animationDuration: 33s;
   $amount: 1000;
   .lower-particles {
-    overflow: hidden;
 
     z-index: 0;
     width: $pointSize;
@@ -19,7 +18,7 @@
     animation-name: goUp;
     animation-iteration-count: infinite;
     $colorRange: (
-      #ff0b0b67,
+      #1b0303db,
       #ffe9a597,
       #ffffff,
     );
@@ -52,7 +51,7 @@
     animation-name: move;
     animation-iteration-count: infinite;
     $colorRange: (
-      #ff0b0b67,
+      #1b0303db,
       #ffe9a597,
       #ffffff,
     );
@@ -115,7 +114,7 @@
       animation-name: move;
       animation-iteration-count: infinite;
       $colorRange: (
-        #ff0b0b67,
+        #1b0303db,
         #ffe9a597,
         #ffffff,
       );

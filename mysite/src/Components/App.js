@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import './ParticlesAnimation.scss';
-import { Switch, Route } from 'react-router';
 import { Main } from './Main';
 import { Links } from './Links';
 import { About } from './About';
@@ -14,18 +13,10 @@ function App() {
       <div className="background">
         <div className="App">
           <Header></Header>
-          <Particles />
-          <Switch>
-            <Route exact path="/">
-              <Main />
-            </Route>
-            <Route exact path="/about">
-              <About />
-            </Route>
-            <Route exact path="/links">
-              <Links />
-            </Route>
-        </Switch>
+            <Particles />
+            <Main />
+            <About />
+            <Links />
         </div>
       </div>
     </div>

@@ -35,11 +35,11 @@ and (min-device-width : 720px)
   display: flex;
   border-radius: 41vw;
   margin: auto;
-  border: 0.2vw #d0e4f7 solid;
-  background-color:#d0e4f73b;
+  border: 0.2vw #fe050571 solid;
+  background-color:#fe050571;
 }
 .inner-portrait:hover{
-  background-color:#d0e4f794;
+  background-color:#fc654367;
 }
 }
 
@@ -76,11 +76,11 @@ and (max-device-width : 480px) {
     display: flex;
     border-radius: 66vw;
     margin: auto;
-    background-color:#d0e4f73b;
-    border: 0.6vw #d0e4f7 solid
+    background-color:#fe050571;
+    border: 0.6vw #fe050571 solid
   }
   .inner-portrait:hover{
-    background-color:#d0e4f794;
+    background-color:#fc654367;
   }
 }
 
@@ -115,12 +115,12 @@ and (max-device-width : 320px) {
     display: flex;
     border-radius: 66vw;
     margin: auto;
-    border: 0.6vw #d0e4f7 solid;
-    background-color:#d0e4f73b;
+    border: 0.6vw #fe050571 solid;
+    background-color:#fe050571;
   }
 
   .inner-portrait:hover{
-    background-color:#d0e4f794;
+    background-color:#fc654367;
   }
 }
 

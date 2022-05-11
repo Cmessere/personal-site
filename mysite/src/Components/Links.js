@@ -7,7 +7,7 @@ import "./LinksAnimation.scss"
 
 export const Links = () => {
   return (
-    <div className="Link-page">
+    <div className="link-page">
       <div className="link-row">
         <div className="link-component">
           <div className="contact-bubble">

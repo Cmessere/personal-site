@@ -12,7 +12,7 @@ export const Main = () => {
         smooth={true}
         duration={1000}
       >
-        <div className="portrait" onClick={() => console.log("yo")}>
+        <div className="portrait">
           <div className="inner-portrait">
             <div className="title">
               <p className="name">START</p>

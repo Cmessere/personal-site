@@ -2,7 +2,6 @@ import React from 'react';
 import './About.css';
 import './AboutAnimation.scss';
 import photo from './images/photo.png';
-import { Link } from "react-scroll";
 
 export const About = () => {
 
@@ -27,17 +26,7 @@ export const About = () => {
       <p className="about-paragraph">
         I live and breathe technologies, and I always love to learn!
       </p>
-      <Link
-        activeClass="active"
-        to="link-page"
-        spy={true}
-        smooth={true}
-        duration={1000}
-      >
-      <p className="about-paragraph">
-        Click here if you want to get in contact!
-      </p>
-      </Link>
+
 
     </div>
   );

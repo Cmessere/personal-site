@@ -35,14 +35,14 @@
     display: flex;
     border-radius: 41vw;
     border: 0.8vh #ffffff solid;
-    background: radial-gradient(#8464145e, #3c0a0ab1, #1b0303db);
+    background: radial-gradient(#379683ca, #379683ca, #056b5f, #05386b);
     width: 19vh;
     height: 19vh;
     margin: auto;
 }
 
 .inner-contact-bubble:hover{
-    background-color:#792828c0;
+    background-color:#74c1b2;
 }
 
 .contact-name{

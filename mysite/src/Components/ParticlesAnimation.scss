@@ -18,9 +18,9 @@
     animation-name: goUp;
     animation-iteration-count: infinite;
     $colorRange: (
-      #1b0303db,
-      #ffe9a597,
-      #ffffff,
+      #001b36,
+      #24ffd3,
+      #d4ffe7,
     );
     @for $i from 1 through $amount {
       &:nth-child(#{$i}) {
@@ -51,9 +51,9 @@
     animation-name: move;
     animation-iteration-count: infinite;
     $colorRange: (
-      #1b0303db,
-      #ffe9a597,
-      #ffffff,
+      #001b36,
+      #24ffd3,
+      #d4ffe7,
     );
     @for $i from 1 through $amount {
       &:nth-child(#{$i}) {
@@ -114,9 +114,9 @@
       animation-name: move;
       animation-iteration-count: infinite;
       $colorRange: (
-        #1b0303db,
-        #ffe9a597,
-        #ffffff,
+        #001b36,
+        #24ffd3,
+        #d4ffe7,
       );
       @for $i from 1 through $amount {
         &:nth-child(#{$i}) {

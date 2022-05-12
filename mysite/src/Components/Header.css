@@ -34,12 +34,18 @@ a:link {
   .header-content{
     display: flex;
     border-bottom: 0.75vh white solid;
-    background-color: #29160c;
+    background-color: #022446dd;
     justify-content: center;
+    text-align: center;
+    align-items: center;
     margin: auto;
     cursor: pointer;
   }
 
+  .header-content:hover{
+    background-color: #60c5b1b7;
+  }
+  
   .custom-link{
     display: flex;
     margin: auto;
@@ -47,11 +53,11 @@ a:link {
     border-radius: 14px;
     margin-left: .25vw;
     margin-right: .25vw;
-    background-color: #29160cda;
+    background-color: #022446dd;
     border-bottom: 0.35vh white solid;
   }
   .custom-link:hover{
-    background-color: #7b5b4bcd;
+    background-color: #60c5b1b7;
   }
   
   .App-header {
@@ -78,9 +84,6 @@ a:link {
     height: 10vh;
   }
 
-  .header-content:hover{
-    background-color: #7b5b4bcd;
-  }
 
   .contact-row{
     font-size: 4vh;
@@ -92,10 +95,6 @@ a:link {
 
 @media only screen 
 and (max-device-width : 480px) { 
-
-  .custom-link{
-   
-  }
 
   .App-header {
     display: flex;
@@ -113,16 +112,17 @@ and (max-device-width : 480px) {
     margin-left: .5vw;
     margin-right: .5vw;
   }
-
-  .header-content:hover{
+  .custom-link{
+    height: 3vh;
+    width: 3vh;
+    font-size: 3vh;
+    align-items: center;
+    text-align: center;
+    padding: 1vh;
   }
 
   .contact-row{
-    position: fixed;
-    bottom: 1%;
-    right: 2%;
-    font-size: 2vh;
-
+    z-index: 10;
 }
 
 } 

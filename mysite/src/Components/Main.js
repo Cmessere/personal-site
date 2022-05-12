@@ -1,17 +1,11 @@
 import React from "react";
 import "./Main.css";
-import { Link } from "react-scroll";
+import { useHistory } from 'react-router';
 
 export const Main = () => {
+  let history = useHistory()
   return (
-    <div className="main-page">
-      <Link
-        activeClass="active"
-        to="about-page"
-        spy={true}
-        smooth={true}
-        duration={1000}
-      >
+    <div className="main-page" onClick={() => history.push("/home")}>
         <div className="portrait">
           <div className="inner-portrait">
             <div className="title">
@@ -19,7 +13,6 @@ export const Main = () => {
             </div>
           </div>
         </div>
-      </Link>
     </div>
   );
 };

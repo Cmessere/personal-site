@@ -29,8 +29,8 @@ export const Links = () => {
           </div>
           <h1 className="contact-name">My CV</h1>
         </div>
-        <div className="link-component">
-          <div className="contact-bubble">
+        <div className="link-component center-bubble">
+          <div className="contact-bubble ">
             <div className="inner-contact-bubble">
               <a
                 className="bubble-link"
@@ -76,7 +76,7 @@ export const Links = () => {
           </div>
           <h1 className="contact-name">GitHub</h1>
         </div>
-        <div className="link-component">
+        <div className="link-component center-bubble">
           <div className="contact-bubble">
             <div className="inner-contact-bubble">
               <a
@@ -102,7 +102,7 @@ export const Links = () => {
               </a>
             </div>
           </div>
-      <h1 className="contact-name">Email Me</h1>
+        <h1 className="contact-name">Email Me</h1>
         </div>
       </div>
     </div>

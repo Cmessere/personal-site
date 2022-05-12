@@ -40,7 +40,7 @@ export const Header = () => {
         </Link>
 
       </div>
-      <div className="App-header-row">
+      <div className="App-header-row-icons">
       <div className="contact-row">
         <a className="custom-link" href="https://www.linkedin.com/in/carlo-messere-65a193115/" rel="noopener noreferrer" target="_blank">
           <FontAwesomeIcon className="contact-icon" icon={faLinkedin} />

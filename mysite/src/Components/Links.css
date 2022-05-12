@@ -2,12 +2,10 @@
     z-index: 3;
 }
   
-  
-  @media only screen 
-  and (min-device-width : 720px) {
 .link-page{
     display: flex;
     margin: auto;
+    margin-top: 15vh;
     flex-direction: column;
 }
 .link-component{
@@ -34,11 +32,10 @@
 
 .inner-contact-bubble{
     cursor: pointer;  
-    
     display: flex;
     border-radius: 41vw;
     border: 0.8vh #ffffff solid;
-    background-color:#3c0a0ab1;
+    background: radial-gradient(#8464145e, #3c0a0ab1, #1b0303db);
     width: 19vh;
     height: 19vh;
     margin: auto;
@@ -61,85 +58,21 @@
   .bubble-icon-height{
     font-size: 11vh;
 }
+
 .bubble-link{
     margin: auto;
     
 }
-  }
 
-/* 
-  @media only screen 
-and (max-device-width : 320px) {
-    .link-page{
-        display: flex;
-        margin-top: 20vw;
-        flex-direction: column;
-    }
-    .link-component{
-        display: flex;
-        flex-direction: column;
-        min-width: 45vw;
-    }
-    .link-component:nth-child(2){
-        display: flex;
-        justify-content: flex-end;
-        flex-direction: column-reverse;
-    }
-    .link-row{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        margin: auto;
-        margin-top: 3vh;
-        margin-bottom: 5vh;
-        min-width: 30%;
-    }
-
-    
-    .contact-bubble{
-        margin: auto;
-        border-radius: 42vw;
-        display: flex;
-
-    }
-    
-    .inner-contact-bubble{
-        cursor: pointer;  
-
-        display: flex;
-        border-radius: 41vw;
-        border: 0.6vh #ffffff solid;
-        background-color:#fc654367;
-        width: 32vw;
-        height: 32vw;
-        margin: auto;
-    }
-    .inner-contact-bubble:hover{
-        background-color:#fd646486;
-    }
-    
-    .contact-name{
-        margin: auto;
-        margin-left: 1vw;
-        margin-right: 1vw;
-        font-size: 6vw;
-    }
-    
-      .bubble-icon{
-        font-size: 16vw;
-        margin: auto;
-      }
-      .bubble-icon-height{
-        font-size: 16vw;
-    }
-    .bubble-link{
-        margin: auto;
-    }
+.center-bubble{
+    position: relative;
+    bottom: 35%;
 }
+
 
 @media only screen 
-and (min-device-width : 320px) 
 and (max-device-width : 480px) {
+
     .link-page{
         display: flex;
         margin-top: 20vw;
@@ -148,14 +81,9 @@ and (max-device-width : 480px) {
     .link-component{
         display: flex;
         flex-direction: column;
-        min-width: 45vw;
-        
+        min-width: 25vw;
     }
-    .link-component:nth-child(2){
-        display: flex;
-        justify-content: flex-end;
-        flex-direction: column-reverse;
-    }
+
     .link-row{
         display: flex;
         flex-direction: row;
@@ -166,12 +94,10 @@ and (max-device-width : 480px) {
         min-width: 30%;
     }
 
-    
     .contact-bubble{
         margin: auto;
         border-radius: 42vw;
         display: flex;
-
     }
     
     .inner-contact-bubble{
@@ -179,15 +105,11 @@ and (max-device-width : 480px) {
         display: flex;
         border-radius: 41vw;
         border: 0.6vh #ffffff solid;
-        background-color:#fc654367;
-        width: 32vw;
-        height: 32vw;
+        width: 18vw;
+        height: 18vw;
         margin: auto;
     }
-    .inner-contact-bubble:hover{
-        background-color:#fd646486;
-    }
-    
+
     .contact-name{
         margin: auto;
         margin-left: 1vw;
@@ -195,15 +117,21 @@ and (max-device-width : 480px) {
         font-size: 6vw;
     }
     
-      .bubble-icon{
-        font-size: 16vw;
+    .bubble-icon{
+        font-size: 8vw;
         margin: auto;
-      }
-      .bubble-icon-height{
-        font-size: 16vw;
     }
+
+    .bubble-icon-height{
+        font-size: 8vw;
+    }
+
     .bubble-link{
         margin: auto;
     }
+    .contact-name{
+        font-size: 1rem;
+    }
+
+
 }
- */

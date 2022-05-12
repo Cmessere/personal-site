@@ -8,7 +8,7 @@ export const About = () => {
   return (
     <div className="about-page">
       <img className="curve" src={photo} alt="curve"></img>
-      <h1 className="about-title">Hey There, Welcome to my site!</h1>
+      <h1 className="about-title">Welcome to my site!</h1>
       <p className="paragraph">
         My Name is Carlo Messere, and I am a software developer.
       </p>

@@ -40,7 +40,6 @@ and (min-device-width : 720px)
     display: flex;
 
     cursor: pointer;
-    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
 
   .custom-link{
@@ -77,7 +76,6 @@ and (min-device-width : 720px)
     margin-left: 2vw;
     margin-right: 2vw;
     cursor: pointer;
-    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
 
   .header-content:hover{
@@ -102,7 +100,6 @@ and (max-device-width : 480px) {
     margin-left: 2vw;
     margin-right: 2vw;
     cursor: pointer;
-    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
 
   .custom-link{
@@ -136,7 +133,6 @@ and (max-device-width : 480px) {
     padding: 1vh 1vh;
     border-radius: 4px;
     cursor: pointer;
-    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
 
   .header-content:hover{
@@ -166,7 +162,6 @@ and (max-device-width : 320px) {
     margin-left: 2vw;
     margin-right: 2vw;
     cursor: pointer;
-    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
 
   .custom-link{
@@ -200,7 +195,6 @@ and (max-device-width : 320px) {
     padding: 1vh 1vh;
     border-radius: 4px;
     cursor: pointer;
-    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
 
   .header-content:hover{

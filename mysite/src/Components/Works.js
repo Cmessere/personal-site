@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from "react-scroll";
 import './Works.css';
 
 export const Works = () => {

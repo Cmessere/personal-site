@@ -21,17 +21,6 @@ export const Works = () => {
       <p className="paragraph">
         Currently I am working as a consultant on Phillip Morris International's IQOS website.
       </p>
-      <Link
-        activeClass="active"
-        to="link-page"
-        spy={true}
-        smooth={true}
-        duration={1000}
-      >
-      <p className="paragraph-last">
-        Click here if you want to get in contact!
-      </p>
-      </Link>
     </div>
   );
 };

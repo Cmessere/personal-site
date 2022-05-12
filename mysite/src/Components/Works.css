@@ -1,18 +1,21 @@
 .works-page{
-    margin-top: 25vh;
     margin: auto;
+    z-index: 3;
 }
 
 .works-link{
     color: #ffffff;
 }
 
-.paragraph-last{
-    margin-top:5vh;
-    display:inline-block;
-    text-align: center;
-    font-size: 1.5em;
-}
-.paragraph-last{
-    background-color: #ffffff23;
-}
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+    
+    .works-page{
+        max-width: 85%;
+        min-width: 85%;
+        margin-top: 5vh;
+        z-index: 3;
+    }
+
+} 

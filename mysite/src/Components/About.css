@@ -27,52 +27,27 @@
     margin-bottom:1vh;
     font-size: 3rem;
 }
-/* @media only screen 
-and (max-device-width : 320px) {
-    .curve { 
-        float: left;
-        margin-right:2vh; 
-        shape-outside:circle();
-        width: 18vh;
-        height: 18vh;
-        border-radius: 18vh;
-        border: 0.5vh #ffffff solid;
-    }
-    .about-paragraph{
-        min-width: 100%;
-        word-spacing: .5vh;
-        font-size: .68em;
-    }
-    .about-page{
-        margin-top: 10vh;
-        z-index: 3;
-    }
-    .about-title{
-        margin: auto;
-        margin-bottom:1vw;
-        font-size: 1em;
-    }
-}
 
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
     .curve { 
         float: left;
-        margin-right:2vh; 
+        margin-right:4vh; 
         shape-outside:circle();
-        width: 18vh;
-        height: 18vh;
-        border-radius: 18vh;
+        width: 12vh;
+        height: 12vh;
+        border-radius: 12vh;
         border: 0.5vh #ffffff solid;
     }
-    .about-paragraph{
+    .paragraph{
         min-width: 100%;
         word-spacing: .5vh;
-        font-size: .9em;
+        font-size: 1.1rem;
     }
+    
     .about-page{
-        min-width: 85%;
+        max-width: 85%;
      
         margin-top: 10vh;
         z-index: 3;
@@ -80,6 +55,6 @@ and (max-device-width : 480px) {
     .about-title{
         margin: auto;
         margin-bottom:1vw;
-        font-size: 1.4em;
+        font-size: 1.6rem;
     }
-} */
+} 

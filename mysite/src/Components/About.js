@@ -17,11 +17,11 @@ export const About = () => {
         fell in love with it.
       </p>
       <p className="paragraph">
-        Coding became my passion, and I soon decided to make it a profession. I got my Master's in Computer Engineering that gave me a structured approach and the forma mentis to work as an engineer.
-              </p>
+        Coding became my passion, and I soon decided to make it a profession. I got my Master's in Computer Engineering which gave me a structured approach and the forma mentis to work as an engineer.
+      </p>
       <p className="paragraph">
-        All the while I kept busy tinkering with different languages and technologies.
-        To this day I have good experience with multiple programming languages, spacing from the "Old reliables" like C/C++, to the scripting oriented like Javascript, Python and Rust.
+        All the while I kept busy tinkering with different technologies.
+        To this day I have good experience with multiple programming languages, spacing from the "Old reliables" like C/C++, to the scripting oriented like Javascript, Python and C#.
       </p>
       <p className="paragraph">
         I live and breathe technologies, and I always love to learn!

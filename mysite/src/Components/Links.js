@@ -79,7 +79,6 @@ export const Links = () => {
       </div>
       <div className="link-row">
         <div className="link-component">
-          <h1 className="contact-name">Hacker Rank</h1>
           <div className="contact-bubble">
             <div className="inner-contact-bubble">
               <a
@@ -92,8 +91,10 @@ export const Links = () => {
               </a>
             </div>
           </div>
+          <h1 className="contact-name">Hacker Rank</h1>
         </div>
         <div className="link-component">
+          <h1 className="contact-name">Email Me</h1>
           <div className="contact-bubble">
             <div className="inner-contact-bubble">
               <a
@@ -104,7 +105,6 @@ export const Links = () => {
               </a>
             </div>
           </div>
-          <h1 className="contact-name">Email Me</h1>
         </div>
       </div>
     </div>

@@ -7,38 +7,27 @@
     border-radius: 20vw;
     border: 0.75vw #ffffff solid;
 }
-.about-paragraph{
+.paragraph{
     text-align: left;
     margin-left: 1vw;
     max-width: 75vw;
     text-justify: justify;
     word-spacing: .5vh;
-    font-size: 1.5em;
+    font-size: 2rem;
 }
 .about-page{
-
-    margin-top: 25vh;
+    margin-top: 50vh;
     margin: auto;
     z-index: 3;
-    height: 100vh;
 }
+
 .about-title{
     text-align: left;
     margin: auto;
     margin-bottom:1vh;
-    font-size: 3em;
+    font-size: 3rem;
 }
-
-.about-paragraph:last-child{
-    margin-top:2vh;
-    display:inline-block;
-    text-align: center;
-}
-.about-paragraph:last-child:hover{
-
-    background-color: #ffffff23;
-}
-@media only screen 
+/* @media only screen 
 and (max-device-width : 320px) {
     .curve { 
         float: left;
@@ -93,4 +82,4 @@ and (max-device-width : 480px) {
         margin-bottom:1vw;
         font-size: 1.4em;
     }
-}
+} */

@@ -58,7 +58,7 @@
     margin: auto;
     margin-left: 1vh;
     margin-right: 1vh;
-    font-size: 4vh;
+    font-size: 2rem;
 }
 
   .bubble-icon{
@@ -73,7 +73,7 @@
 }
   }
 
-
+/* 
   @media only screen 
 and (max-device-width : 320px) {
     .link-page{
@@ -212,4 +212,4 @@ and (max-device-width : 480px) {
         margin: auto;
     }
 }
-
+ */

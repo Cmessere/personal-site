@@ -1,29 +1,18 @@
 .works-page{
-
     margin-top: 25vh;
     margin: auto;
-    z-index: 3;
-    height: 100vh;
-}
-
-.works-paragraph{
-    text-align: left;
-    margin-left: 1vw;
-    max-width: 75vw;
-    text-justify: justify;
-    word-spacing: .5vh;
-    font-size: 1.5em;
 }
 
 .works-link{
     color: #ffffff;
 }
 
-.works-paragraph-last{
-    margin-top:2vh;
+.paragraph-last{
+    margin-top:5vh;
     display:inline-block;
     text-align: center;
+    font-size: 1.5em;
 }
-.works-paragraph-last{
+.paragraph-last{
     background-color: #ffffff23;
 }

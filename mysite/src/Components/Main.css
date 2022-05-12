@@ -1,6 +1,18 @@
+  
+@keyframes breathe {
+  100% {
+    transform: scale(1);
+  }
+  50%{
+    transform: scale(.96);
+  }
+  0%{
+    transform: scale(1);
+  }
+}
   .name{
     margin: auto;
-    font-size:12vw;
+    font-size:8rem;
   }
   
   .main-page{
@@ -11,12 +23,6 @@
     height: 100vh;
   }
 
-  .work{
-    margin: auto;
-    font-size: 20px;
-    margin-bottom: 3vw;
-  }
-  
   .title{
     margin: auto;
   }
@@ -29,122 +35,55 @@
   animation-iteration-count: infinite;
 }
 
-@keyframes breathe {
-  100% {
-    transform: scale(1);
-  }
-  50%{
-    transform: scale(.96);
-  }
-  0%{
-    transform: scale(1);
-  }
-}
-@media only screen 
-and (min-device-width : 720px) 
-{
+
 .portrait{
   cursor: pointer;
-
   width: 42vw;
   height: 42vw;
   border-radius: 42vw;
   display: flex;
   margin: auto;
   margin-top: 3vh;
-  border: 0.5vw #ffffff solid
+  border: 1vw #ffffff solid;
+  font-weight: bolder;
+  letter-spacing: .4vh;
 }
+
 .inner-portrait{
   width: 41vw;
   height: 41vw;
   display: flex;
   border-radius: 41vw;
   margin: auto;
-  border: 0.2vw #cf8b7a67 solid;
+  border: 0.5vw #cf8b7a67 solid;
   background-color:#3c0a0ab1;
 }
 .inner-portrait:hover{
   background-color:#cf8b7a67;
 }
-}
 
-/* @media only screen 
-and (min-device-width : 320px) 
+ @media only screen 
 and (max-device-width : 480px) {
   .name{
-    margin: auto;
-    font-size:32px;
-
-  }
-  
-  .work{
-    margin: auto;
-    font-size:20px;
-    
-    margin-bottom: 5vw;
+    font-size:4rem;
   }
 
   .portrait{
-    width: 68vw;
-    cursor: pointer;
-
-    height: 68vw;
-    border-radius: 68vw;
-    display: flex;
-    margin: auto;
+    width: 80vw;
+    height: 80vw;
+    border-radius: 80vw;
     margin-top: 45vw;
     border: 1vw #ffffff solid
+
   }
   .inner-portrait{
-    width: 66vw;
-    height: 66vw;
-    display: flex;
-    border-radius: 66vw;
-    margin: auto;
-    background-color:#cf8b7a67;
-    border: 0.6vw #fc654367 solid
+    width: 78vw;
+    height: 78vw;
+    border-radius: 78vw;
+    border: .5vw #cf8b7a67 solid
+
   }
-  .inner-portrait:hover{
+  .inner-portrait:active{
     background-color:#cf8b7a67;
   }
 }
-
-@media only screen 
-and (max-device-width : 320px) {
-  .name{
-    margin: auto;
-    font-size:24px;
-  }
-  
-  .work{
-    margin: auto;
-    font-size: 12px;
-    margin-bottom: 5vw;
-  }
-
-  
-  .portrait{
-    cursor: pointer;
-
-    width: 68vw;
-    height: 68vw;
-    border-radius: 68vw;
-    display: flex;
-    margin: auto;
-    margin-top: 45vw;
-    border: 1vw #ffffff solid
-  }
-  .inner-portrait{
-    width: 66vw;
-    height: 66vw;
-    display: flex;
-    border-radius: 66vw;
-    margin: auto;
-    border: 0.6vw #cf8b7a67 solid;
-    background-color:#fc654367;
-  }
-
-  .inner-portrait:hover{
-    background-color:#cf8b7a67;
-  }
-} */

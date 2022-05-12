@@ -10,12 +10,7 @@
 body {
   margin: 0;
   z-index: 1;
-
+  width: 100vw;
+  overflow-x: hidden;
 }
 
-.main-page{
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  z-index: 1;
-}

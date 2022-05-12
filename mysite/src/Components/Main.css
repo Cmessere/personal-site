@@ -1,12 +1,16 @@
-  .main-page{
-    
-    }
-
   .name{
     margin: auto;
     font-size:12vw;
   }
   
+  .main-page{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    height: 100vh;
+  }
+
   .work{
     margin: auto;
     font-size: 20px;
@@ -17,6 +21,25 @@
     margin: auto;
   }
 
+  
+.portrait{
+  animation-timing-function:  linear;
+  animation-duration: 20s;
+  animation-name: breathe;
+  animation-iteration-count: infinite;
+}
+
+@keyframes breathe {
+  100% {
+    transform: scale(1);
+  }
+  50%{
+    transform: scale(.96);
+  }
+  0%{
+    transform: scale(1);
+  }
+}
 @media only screen 
 and (min-device-width : 720px) 
 {
@@ -38,14 +61,14 @@ and (min-device-width : 720px)
   border-radius: 41vw;
   margin: auto;
   border: 0.2vw #cf8b7a67 solid;
-  background-color:#fc654367;
+  background-color:#3c0a0ab1;
 }
 .inner-portrait:hover{
   background-color:#cf8b7a67;
 }
 }
 
-@media only screen 
+/* @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
   .name{
@@ -124,23 +147,4 @@ and (max-device-width : 320px) {
   .inner-portrait:hover{
     background-color:#cf8b7a67;
   }
-}
-
-.portrait{
-  animation-timing-function:  linear;
-  animation-duration: 20s;
-  animation-name: breathe;
-  animation-iteration-count: infinite;
-}
-
-@keyframes breathe {
-  100% {
-    transform: scale(1);
-  }
-  50%{
-    transform: scale(.96);
-  }
-  0%{
-    transform: scale(1);
-  }
-}
+} */

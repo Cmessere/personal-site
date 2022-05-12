@@ -81,7 +81,7 @@ export const Links = () => {
             <div className="inner-contact-bubble">
               <a
                 className="bubble-link"
-                href="https://www.github.com/cmessere/"
+                href="https://www.hackerrank.com/Shiro27"
                 rel="noopener noreferrer"
                 target="_blank"
               >

@@ -33,9 +33,6 @@
     min-width: 30%;
 }
 
-.link-row:nth-child(3){
-    flex-direction: column;
-}
 
 .contact-bubble{
     border-radius: 42vw;
@@ -48,13 +45,13 @@
     display: flex;
     border-radius: 41vw;
     border: 0.8vh #ffffff solid;
-    background-color:#fe050571;
+    background-color:#fc654367;
     width: 19vh;
     height: 19vh;
     margin: auto;
 }
 .inner-contact-bubble:hover{
-    background-color:#f53b3b71;
+    background-color:#fd646486;
 }
 
 .contact-name{
@@ -72,6 +69,7 @@
 }
 .bubble-link{
     margin: auto;
+    
 }
   }
 
@@ -102,11 +100,7 @@ and (max-device-width : 320px) {
         margin-bottom: 5vh;
         min-width: 30%;
     }
-    
-    .link-row:nth-child(3){
-        flex-direction: column;
-    
-    }
+
     
     .contact-bubble{
         margin: auto;
@@ -121,13 +115,13 @@ and (max-device-width : 320px) {
         display: flex;
         border-radius: 41vw;
         border: 0.6vh #ffffff solid;
-        background-color:#fe050571;
+        background-color:#fc654367;
         width: 32vw;
         height: 32vw;
         margin: auto;
     }
     .inner-contact-bubble:hover{
-        background-color:#f53b3b71;
+        background-color:#fd646486;
     }
     
     .contact-name{
@@ -177,11 +171,7 @@ and (max-device-width : 480px) {
         margin-bottom: 5vh;
         min-width: 30%;
     }
-    
-    .link-row:nth-child(3){
-        flex-direction: column;
-    
-    }
+
     
     .contact-bubble{
         margin: auto;
@@ -195,13 +185,13 @@ and (max-device-width : 480px) {
         display: flex;
         border-radius: 41vw;
         border: 0.6vh #ffffff solid;
-        background-color:#fe050571;
+        background-color:#fc654367;
         width: 32vw;
         height: 32vw;
         margin: auto;
     }
     .inner-contact-bubble:hover{
-        background-color:#f53b3b71;
+        background-color:#fd646486;
     }
     
     .contact-name{

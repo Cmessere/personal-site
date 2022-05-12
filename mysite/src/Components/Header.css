@@ -2,7 +2,6 @@
 
 a:link {
     color: #ffffff;
-    text-decoration: none;
   }
   
   a:visited {
@@ -20,6 +19,10 @@ a:link {
 
 .App-header-row{
     display: flex;
+}
+
+.header-content{
+  text-transform: uppercase;
 }
 
 @media only screen 

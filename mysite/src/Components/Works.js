@@ -18,7 +18,7 @@ export const Works = () => {
         I have developed a <a className='works-link' href="https://www.iconsulting.biz/en/oscar/" rel="noopener noreferrer" target="_blank">product</a> for my former company and worked with some of Italy's biggest companies like Pirelli, Bper, Unipol and Generali, developing custom tailored Single Page Applications and Websites with great results.
       </p>
       <p className="paragraph">
-        Currently, I am working as a consultant on Phillip Morris International's IQOS website.
+        Currently, I am working as a Senior Frontend developer consulting on Phillip Morris International's IQOS website.
       </p>
     </div>
   );

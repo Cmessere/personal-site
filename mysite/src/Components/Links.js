@@ -16,7 +16,7 @@ export const Links = () => {
       <div className="link-row">
         <div className="link-component">
           <div className="contact-bubble">
-            <div className="inner-contact-bubble">
+            <div className="inner-contact-bubble left-bubble">
               <a
                 className="bubble-link"
                 href="https://drive.google.com/file/d/12jz3CIT_Fhz06kGBCfuKwmKPevDzA_Nq/view?usp=sharing"
@@ -46,7 +46,7 @@ export const Links = () => {
         </div>
         <div className="link-component">
           <div className="contact-bubble">
-            <div className="inner-contact-bubble">
+            <div className="inner-contact-bubble right-bubbl">
               <a
                 className="bubble-link"
                 href="https://www.linkedin.com/in/carlo-messere-65a193115/"
@@ -63,7 +63,7 @@ export const Links = () => {
         <div className="link-row">  
         <div className="link-component">
           <div className="contact-bubble">
-            <div className="inner-contact-bubble">
+            <div className="inner-contact-bubble left-bubble">
               <a
                 className="bubble-link"
                 href="https://www.github.com/cmessere/"
@@ -92,7 +92,7 @@ export const Links = () => {
           <h1 className="contact-name">Hacker Rank</h1>
         </div>
         <div className="link-component">
-          <div className="contact-bubble">
+          <div className="contact-bubble right-bubble">
             <div className="inner-contact-bubble">
               <a
                 className="bubble-link"

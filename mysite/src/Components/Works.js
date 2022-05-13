@@ -15,7 +15,7 @@ export const Works = () => {
         As a professional developer, I started as a C# backend developer and later moved on to frontend development, specifically with Javascript, Typescipt and React.js.
       </p>
       <p className="paragraph">
-        I have developed a <a className='works-link' href="https://www.iconsulting.biz/en/oscar/" rel="noopener noreferrer" target="_blank">product</a> for my former company and worked with some of Italy's biggest companies like Pirelli, Unipol and Generali, developing custom tailored Single Page Applications and Websites with great results.
+        I have developed a <a className='works-link' href="https://www.iconsulting.biz/en/oscar/" rel="noopener noreferrer" target="_blank">product</a> for my former company and worked with some of Italy's biggest companies like Pirelli, Bper, Unipol and Generali, developing custom tailored Single Page Applications and Websites with great results.
       </p>
       <p className="paragraph">
         Currently, I am working as a consultant on Phillip Morris International's IQOS website.
